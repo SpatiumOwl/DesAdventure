@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-08-29T09:05:41.907Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="RVCYeMiYIi1T8xzNfIVL" version="21.3.7" type="device">
+<mxfile host="Electron" modified="2023-08-29T11:56:47.192Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="5b02tMn55bRZJOpFcztx" version="21.3.7" type="device">
   <diagram name="General Plan" id="OGCX2nEGkCkGxa0oHF3A">
     <mxGraphModel dx="2284" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -12,54 +12,54 @@
             <mxGeometry y="28" width="300" height="722" as="geometry" />
           </mxCell>
         </object>
-        <object label="Set up an Unreal Project" placeholders="1" id="GKQWI9ghuT4y3DB09Xu3-9">
-          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;shadow=0;fillOpacity=30;strokeOpacity=100;fontColor=#ffffff;" parent="GKQWI9ghuT4y3DB09Xu3-2" vertex="1">
-            <mxGeometry x="20" y="21" width="260" height="40" as="geometry" />
-          </mxCell>
-        </object>
         <object label="Implement character running" placeholders="1" id="G28G8z8e1_YZeOszFCHd-1">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;shadow=0;fillOpacity=30;strokeOpacity=100;fontColor=#ffffff;" vertex="1" parent="GKQWI9ghuT4y3DB09Xu3-2">
-            <mxGeometry x="20" y="81" width="260" height="40" as="geometry" />
+            <mxGeometry x="20" y="21" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
         <object label="Implement jumping" placeholders="1" id="G28G8z8e1_YZeOszFCHd-2">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;shadow=0;fillOpacity=30;strokeOpacity=100;fontColor=#ffffff;" vertex="1" parent="GKQWI9ghuT4y3DB09Xu3-2">
-            <mxGeometry x="20" y="141" width="260" height="40" as="geometry" />
+            <mxGeometry x="20" y="81" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
         <object label="Implement dash" placeholders="1" id="G28G8z8e1_YZeOszFCHd-4">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;shadow=0;fillOpacity=30;strokeOpacity=100;fontColor=#ffffff;" vertex="1" parent="GKQWI9ghuT4y3DB09Xu3-2">
-            <mxGeometry x="20" y="201" width="260" height="40" as="geometry" />
+            <mxGeometry x="20" y="141" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
         <object label="Add NPCs" placeholders="1" id="G28G8z8e1_YZeOszFCHd-3">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;shadow=0;fillOpacity=30;strokeOpacity=100;fontColor=#ffffff;" vertex="1" parent="GKQWI9ghuT4y3DB09Xu3-2">
-            <mxGeometry x="20" y="261" width="260" height="40" as="geometry" />
+            <mxGeometry x="20" y="201" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
         <object label="Implement smackdown" placeholders="1" id="G28G8z8e1_YZeOszFCHd-5">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;shadow=0;fillOpacity=30;strokeOpacity=100;fontColor=#ffffff;" vertex="1" parent="GKQWI9ghuT4y3DB09Xu3-2">
-            <mxGeometry x="20" y="321" width="260" height="40" as="geometry" />
+            <mxGeometry x="20" y="261" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
         <object label="Implement simple enemies" placeholders="1" id="G28G8z8e1_YZeOszFCHd-6">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;shadow=0;fillOpacity=30;strokeOpacity=100;fontColor=#ffffff;" vertex="1" parent="GKQWI9ghuT4y3DB09Xu3-2">
-            <mxGeometry x="20" y="381" width="260" height="40" as="geometry" />
+            <mxGeometry x="20" y="321" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
         <object label="Build a map" placeholders="1" id="G28G8z8e1_YZeOszFCHd-7">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;shadow=0;fillOpacity=30;strokeOpacity=100;fontColor=#ffffff;" vertex="1" parent="GKQWI9ghuT4y3DB09Xu3-2">
-            <mxGeometry x="20" y="441" width="260" height="40" as="geometry" />
+            <mxGeometry x="20" y="381" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
         <object label="Add a boss fight" placeholders="1" id="G28G8z8e1_YZeOszFCHd-8">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;shadow=0;fillOpacity=30;strokeOpacity=100;fontColor=#ffffff;" vertex="1" parent="GKQWI9ghuT4y3DB09Xu3-2">
-            <mxGeometry x="20" y="501" width="260" height="40" as="geometry" />
+            <mxGeometry x="20" y="441" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
         <object label="DOING" status="In progress" id="GKQWI9ghuT4y3DB09Xu3-4">
           <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#006600;" parent="GKQWI9ghuT4y3DB09Xu3-1" vertex="1">
             <mxGeometry x="300" y="28" width="300" height="722" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Set up an Unreal Project" placeholders="1" id="GKQWI9ghuT4y3DB09Xu3-9">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#60a917;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#2D7600;shadow=0;fillOpacity=30;strokeOpacity=100;fontColor=#ffffff;" parent="GKQWI9ghuT4y3DB09Xu3-4" vertex="1">
+            <mxGeometry x="20" y="21" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
         <object label="DONE" status="Completed" id="GKQWI9ghuT4y3DB09Xu3-6">
