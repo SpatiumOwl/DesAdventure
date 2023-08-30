@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>4A8C11E05A8A48099175BFE2DA628A05</ExecutionGuid>
+		<CrashGUID>UECC-Linux-0B4E5479733D4EDEB0DA4F1AFFDB6D0C_0001</CrashGUID>
+		<IsEnsure>true</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<ErrorMessage>Ensure condition failed: NewObject-&gt;IsA(this-&gt;GeneratedClass) [File:./Runtime/Engine/Private/Blueprint.cpp] [Line: 875] Type mismatch: Expected BP_Des_C, Found REINST_BP_Des_C_53 Stack: 0x00007f2351bc06c1 libUnrealEditor-Engine.so!UBlueprint::SetObjectBeingDebugged(UObject*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Blueprint.cpp:871] 0x00007f234c2cca43 libUnrealEditor-UnrealEd.so!FKismetDebugUtilities::OnScriptException(UObject const*, FFrame const&amp;, FBlueprintExceptionInfo const&amp;) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/Kismet2/KismetDebugUtilities.cpp:275] 0x00007f234c9b67c0 libUnrealEditor-UnrealEd.so!TBaseStaticDelegateInstance&lt;void (UObject const*, FFrame const&amp;, FBlueprintExceptionInfo const&amp;), FDefaultDelegateUserPolicy&gt;::ExecuteIfSafe(UObject const*, FFrame const&amp;, FBlueprintExceptionInfo const&amp;) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:656] 0x00007f2354dfd9ea libUnrealEditor-CoreUObject.so!void TMulticastDelegateBase&lt;FDefaultDelegateUserPolicy&gt;::Broadcast&lt;IBaseDelegateInstance&lt;void (UObject const*, FFrame const&amp;, FBlueprintExceptionInfo const&amp;), FDefaultDelegateUserPolicy&gt;, TDelegate&lt;void (UObject const*, FFrame const&amp;, FBlueprintExceptionInfo const&amp;), FDefaultDelegateUserPolicy&gt;, UObject const*, FFrame const&amp;, FBlueprintExceptionInfo const&amp;&gt;(UObject const*, FFrame const&amp;, FBlueprintExceptionInfo const&amp;) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/MulticastDelegateBase.h:204] 0x00007f2354da030e libUnrealEditor-CoreUObject.so!FBlueprintCoreDelegates::ThrowScriptException(UObject const*, FFrame&amp;, FBlueprintExceptionInfo const&amp;) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:232] 0x00007f2354daebeb libUnrealEditor-CoreUObject.so!UObject::execTracepoint(UObject*, FFrame&amp;, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:2429] 0x00007f2354da562c libUnrealEditor-CoreUObject.so!ProcessLocalScriptFunction(UObject*, FFrame&amp;, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1230] 0x00007f2354ad13df libUnrealEditor-CoreUObject.so!UFunction::Invoke(UObject*, FFrame&amp;, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6411] 0x00007f2354dab718 libUnrealEditor-CoreUObject.so!UObject::ProcessEvent(UFunction*, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:2129] 0x00007f2351677657 libUnrealEditor-Engine.so!AActor::ProcessEvent(UFunction*, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Actor.cpp:1055] 0x00007f235169ffc8 libUnrealEditor-Engine.so!AActor::BeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Actor.cpp:4173] 0x00007f2352be7ff9 libUnrealEditor-Engine.so!APawn::BeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Pawn.cpp:176] 0x00007f235169f118 libUnrealEditor-Engine.so!AActor::DispatchBeginPlay(bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Actor.cpp:4113] 0x00007f235393c592 libUnrealEditor-Engine.so!AWorldSettings::NotifyBeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/WorldSettings.cpp:281] 0x00007f235226913c libUnrealEditor-Engine.so!AGameStateBase::HandleBeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/GameStateBase.cpp:225] 0x00007f23521fce97 libUnrealEditor-Engine.so!AGameModeBase::StartPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/GameModeBase.cpp:197] 0x00007f23537c174a libUnrealEditor-Engine.so!UWorld::BeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/World.cpp:4874] 0x00007f23521ef6bf libUnrealEditor-Engine.so!UGameInstance::StartPlayInEditorGameInstance(ULocalPlayer*, FGameInstancePIEParameters const&amp;) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/GameInstance.cpp:552] 0x00007f234c4a05f9 libUnrealEditor-UnrealEd.so!UEditorEngine::CreateInnerProcessPIEGameInstance(FRequestPlaySessionParams&amp;, FGameInstancePIEParameters const&amp;, int) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:3225] 0x00007f234c494a5f libUnrealEditor-UnrealEd.so!UEditorEngine::OnLoginPIEComplete_Deferred(int, bool, FString, FPieLoginStruct) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1679] 0x00007f234c496618 libUnrealEditor-UnrealEd.so!UEditorEngine::CreateNewPlayInEditorInstance(FRequestPlaySessionParams&amp;, bool, EPlayNetMode) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1939] 0x00007f234c49bb3e libUnrealEditor-UnrealEd.so!UEditorEngine::StartPlayInEditorSession(FRequestPlaySessionParams&amp;) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:2952] 0x00007f234c4926d2 libUnrealEditor-UnrealEd.so!UEditorEngine::StartQueuedPlaySessionRequestImpl() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1244] 0x00007f234c491e76 libUnrealEditor-UnrealEd.so!UEditorEngine::StartQueuedPlaySessionRequest() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1156] 0x00007f234bce6554 libUnrealEditor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/EditorEngine.cpp:1791] 0x00007f234c8b5172 libUnrealEditor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/UnrealEdEngine.cpp:516] 0x000000000023d3c6 UnrealEditor!FEngineLoop::Tick() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5806] 0x000000000024a19a UnrealEditor!GuardedMain(char16_t const*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190] 0x00007f2354f9d9ba libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269] 0x00007f234a455b4a libc.so.6!UnknownFunction(0x23b49) 0x00007f234a455c0b libc.so.6!__libc_start_main(+0x8a) 0x00000000002366d9 UnrealEditor!_start()</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>35381</ProcessId>
+		<SecondsSinceStart>1479</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>true</IsSourceDistribution>
+		<GameName>UE-DesAdventureSrc</GameName>
+		<ExecutableName>UnrealEditor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>LinuxEditor</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Dirty</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.2.1-0+UE5</EngineVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en_US</AppDefaultLocale>
+		<BuildVersion>UE5-CL-0</BuildVersion>
+		<Symbols>UE5-CL-0-Linux-Development</Symbols>
+		<IsUERelease>false</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Binaries/Linux/</BaseDir>
+		<RootDir>/home/spatiumowl/.unreal/UnrealEngine-5.2.1/</RootDir>
+		<MachineId>5541C981B55E48B9991D1C80ACF8681A-000003E8</MachineId>
+		<LoginId>5541c981b55e48b9991d1c80acf8681a-000003e8</LoginId>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint>Layout=&quot;LevelEditor&quot; Label=&quot;TestMap&quot; Content=SLevelEditor</UserActivityHint>
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>8</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 3070 Laptop GPU (NVIDIA UNIX x86_64 Kernel M</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Nobara Linux 38 (Thirty Eight)</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>6.4.10-202.fsync.fc38.x86_64</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>16418451456</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>12884893696</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>7</NumMinidumpFramesToIgnore>
+		<CallStack>libUnrealEditor-Engine.so!UBlueprint::SetObjectBeingDebugged(UObject*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Blueprint.cpp:871]
+libUnrealEditor-UnrealEd.so!FKismetDebugUtilities::OnScriptException(UObject const*, FFrame const&amp;, FBlueprintExceptionInfo const&amp;) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/Kismet2/KismetDebugUtilities.cpp:275]
+libUnrealEditor-UnrealEd.so!TBaseStaticDelegateInstance&lt;void (UObject const*, FFrame const&amp;, FBlueprintExceptionInfo const&amp;), FDefaultDelegateUserPolicy&gt;::ExecuteIfSafe(UObject const*, FFrame const&amp;, FBlueprintExceptionInfo const&amp;) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:656]
+libUnrealEditor-CoreUObject.so!void TMulticastDelegateBase&lt;FDefaultDelegateUserPolicy&gt;::Broadcast&lt;IBaseDelegateInstance&lt;void (UObject const*, FFrame const&amp;, FBlueprintExceptionInfo const&amp;), FDefaultDelegateUserPolicy&gt;, TDelegate&lt;void (UObject const*, FFrame const&amp;, FBlueprintExceptionInfo const&amp;), FDefaultDelegateUserPolicy&gt;, UObject const*, FFrame const&amp;, FBlueprintExceptionInfo const&amp;&gt;(UObject const*, FFrame const&amp;, FBlueprintExceptionInfo const&amp;) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/MulticastDelegateBase.h:204]
+libUnrealEditor-CoreUObject.so!FBlueprintCoreDelegates::ThrowScriptException(UObject const*, FFrame&amp;, FBlueprintExceptionInfo const&amp;) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:232]
+libUnrealEditor-CoreUObject.so!UObject::execTracepoint(UObject*, FFrame&amp;, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:2429]
+libUnrealEditor-CoreUObject.so!ProcessLocalScriptFunction(UObject*, FFrame&amp;, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1230]
+libUnrealEditor-CoreUObject.so!UFunction::Invoke(UObject*, FFrame&amp;, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6411]
+libUnrealEditor-CoreUObject.so!UObject::ProcessEvent(UFunction*, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:2129]
+libUnrealEditor-Engine.so!AActor::ProcessEvent(UFunction*, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Actor.cpp:1055]
+libUnrealEditor-Engine.so!AActor::BeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Actor.cpp:4173]
+libUnrealEditor-Engine.so!APawn::BeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Pawn.cpp:176]
+libUnrealEditor-Engine.so!AActor::DispatchBeginPlay(bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Actor.cpp:4113]
+libUnrealEditor-Engine.so!AWorldSettings::NotifyBeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/WorldSettings.cpp:281]
+libUnrealEditor-Engine.so!AGameStateBase::HandleBeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/GameStateBase.cpp:225]
+libUnrealEditor-Engine.so!AGameModeBase::StartPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/GameModeBase.cpp:197]
+libUnrealEditor-Engine.so!UWorld::BeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/World.cpp:4874]
+libUnrealEditor-Engine.so!UGameInstance::StartPlayInEditorGameInstance(ULocalPlayer*, FGameInstancePIEParameters const&amp;) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/GameInstance.cpp:552]
+libUnrealEditor-UnrealEd.so!UEditorEngine::CreateInnerProcessPIEGameInstance(FRequestPlaySessionParams&amp;, FGameInstancePIEParameters const&amp;, int) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:3225]
+libUnrealEditor-UnrealEd.so!UEditorEngine::OnLoginPIEComplete_Deferred(int, bool, FString, FPieLoginStruct) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1679]
+libUnrealEditor-UnrealEd.so!UEditorEngine::CreateNewPlayInEditorInstance(FRequestPlaySessionParams&amp;, bool, EPlayNetMode) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1939]
+libUnrealEditor-UnrealEd.so!UEditorEngine::StartPlayInEditorSession(FRequestPlaySessionParams&amp;) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:2952]
+libUnrealEditor-UnrealEd.so!UEditorEngine::StartQueuedPlaySessionRequestImpl() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1244]
+libUnrealEditor-UnrealEd.so!UEditorEngine::StartQueuedPlaySessionRequest() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1156]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/EditorEngine.cpp:1791]
+libUnrealEditor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/UnrealEdEngine.cpp:516]
+UnrealEditor!FEngineLoop::Tick() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5806]
+UnrealEditor!GuardedMain(char16_t const*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x23b49)
+libc.so.6!__libc_start_main(+0x8a)
+UnrealEditor!_start()
+</CallStack>
+		<PCallStack>libUnrealEditor-Engine 0x00007f234f200000 + 29c06c1 libUnrealEditor-UnrealEd 0x00007f234a800000 + 1acca43 libUnrealEditor-UnrealEd 0x00007f234a800000 + 21b67c0 libUnrealEditor-CoreUObject 0x00007f2354600000 + 7fd9ea libUnrealEditor-CoreUObject 0x00007f2354600000 + 7a030e libUnrealEditor-CoreUObject 0x00007f2354600000 + 7aebeb libUnrealEditor-CoreUObject 0x00007f2354600000 + 7a562c libUnrealEditor-CoreUObject 0x00007f2354600000 + 4d13df libUnrealEditor-CoreUObject 0x00007f2354600000 + 7ab718 libUnrealEditor-Engine 0x00007f234f200000 + 2477657 libUnrealEditor-Engine 0x00007f234f200000 + 249ffc8 libUnrealEditor-Engine 0x00007f234f200000 + 39e7ff9 libUnrealEditor-Engine 0x00007f234f200000 + 249f118 libUnrealEditor-Engine 0x00007f234f200000 + 473c592 libUnrealEditor-Engine 0x00007f234f200000 + 306913c libUnrealEditor-Engine 0x00007f234f200000 + 2ffce97 libUnrealEditor-Engine 0x00007f234f200000 + 45c174a libUnrealEditor-Engine 0x00007f234f200000 + 2fef6bf libUnrealEditor-UnrealEd 0x00007f234a800000 + 1ca05f9 libUnrealEditor-UnrealEd 0x00007f234a800000 + 1c94a5f libUnrealEditor-UnrealEd 0x00007f234a800000 + 1c96618 libUnrealEditor-UnrealEd 0x00007f234a800000 + 1c9bb3e libUnrealEditor-UnrealEd 0x00007f234a800000 + 1c926d2 libUnrealEditor-UnrealEd 0x00007f234a800000 + 1c91e76 libUnrealEditor-UnrealEd 0x00007f234a800000 + 14e6554 libUnrealEditor-UnrealEd 0x00007f234a800000 + 20b5172 UnrealEditor 0x0000000000200000 + 3d3c6 UnrealEditor 0x0000000000200000 + 4a19a libUnrealEditor-UnixCommonStartup 0x00007f2354f99000 + 49ba libc.so 0x00007f234a432000 + 23b4a libc.so 0x00007f234a432000 + 23c0b UnrealEditor 0x0000000000200000 + 366d9</PCallStack>
+		<PCallStackHash>CD492088E53DE645EAD6778EEA6081266B01AFF4</PCallStackHash>
+		<TimeOfCrash>638289790771340000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Linux [Nobara Linux 38 (Thirty Eight) 6.4.10-202.fsync.fc38.x86_64 64b]</PlatformFullName>
+		<CPUBrand>11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules />
+	</RuntimeProperties>
+	<PlatformProperties>
+		<CrashSignal>5</CrashSignal>
+		<CrashSignalName>Trace/breakpoint trap</CrashSignalName>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>LinuxEditorNo errors</MatchingDPStatus>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.RHIName>Vulkan</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 3070 Laptop GPU</RHI.AdapterName>
+		<RHI.UserDriverVersion>535.104</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>535.104</RHI.InternalDriverVersion>
+		<RHI.DriverDate>01-01-01</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+		<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+		<RHI.DeviceId>249D</RHI.DeviceId>
+		<DeviceProfile.Name>LinuxEditor</DeviceProfile.Name>
+	</EngineData>
+	<GameData />
+	<EnabledPlugins>
+		<Plugin>{ &quot;Version&quot;: 19, &quot;VersionName&quot;: &quot;2023.0.3&quot;, &quot;FriendlyName&quot;: &quot;Bridge&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Enhanced Input&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;FastBuild Controller&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Mesh Painting&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;XGE Controller&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;TraceUtilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Animation Data&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Animation Modifier Library&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Control Rig Spline&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Control Rig&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Asset Manager Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;IK Rig&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Blendspace Motion Analysis&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Blueprint C++ Header Preview&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Changelist Reviews&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Curve Editor Tools&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;CryptoKeys&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Data Validation&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;EditorDebugTools&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Engine Asset Definitions&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Facial Animation Bulk Importer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;glTF Importer (Deprecated)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;GeometryMode&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;GameplayTagsEditor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Modeling Tools Editor Mode&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Mac Graphics Switching&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Sequencer Anim Tools&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Wizard for mobile packaging scenarios&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Material Analyzer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Plugin Browser&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Editor Scripting Utilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Stylus &amp; Tablet Plugin&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;World Partition HLOD Utilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;SpeedTree Importer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Datasmith Content&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 131, &quot;VersionName&quot;: &quot;1.3.1&quot;, &quot;FriendlyName&quot;: &quot;glTF Exporter&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Variant Manager&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Interchange Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Variant Manager Content&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Alembic Importer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Interchange Framework&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 21, &quot;VersionName&quot;: &quot;2.0.5&quot;, &quot;FriendlyName&quot;: &quot;PaperZD&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1&quot;, &quot;FriendlyName&quot;: &quot;BackChannel&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Automation Utilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;ChaosCaching&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Chaos Cloth&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Chaos Cloth Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;ChaosEditor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;ChaosUserDataPT&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Chaos Niagara&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;CharacterAI&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Chaos Solver&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Fracture&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Full Body IK&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Editor DataflowGraph&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;GeometryFlow&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Geometry&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Mesh LOD Toolset&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Experimental Mesh Modeling Toolset&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;OpenImageDenoise&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Planar Cut&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Platform Cryptography Plugin&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Proxy LOD Plugin (Experimental)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Skeletal Mesh Simplifier (Early Access)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Python Editor Script Plugin&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Tool Presets&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;0.2&quot;, &quot;FriendlyName&quot;: &quot;UVEditor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Niagara&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Oodle Network&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;2.0&quot;, &quot;FriendlyName&quot;: &quot;AVF Media Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;2.0&quot;, &quot;FriendlyName&quot;: &quot;Android Media Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Image Sequence Media Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Media Compositing&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 0, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Media Plate&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Media Player Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;WebM Video Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Base&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Services&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;2.0&quot;, &quot;FriendlyName&quot;: &quot;WMF Media Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem NULL&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem Utils&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Take Recorder&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Actor Layer Utilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Android Device Profile Selector&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;AndroidFileServer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Android Movie Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Audio Synesthesia&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;AudioWidgets&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Cable Component&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Chunk Downloader&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Android Runtime Permission&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Custom Mesh Component&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;ArchVis Character&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Apple Movie Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Asset Tags&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Example Device Profile Selector&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Audio Capture&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Apple Image Utils&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Geometry Cache&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Google Cloud Messaging&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;GooglePAD&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Geometry Processing&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Input Debugging&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;IOS Device Profile Selector&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Linux Device Profile Selector&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Mobile Location Services Blueprints Library&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Mesh Modeling Toolset&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;MetaSound&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Mobile Patching Utilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Procedural Mesh Component&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Property Access Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Resonance Audio&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Significance Manager&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;SoundFields&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.1&quot;, &quot;FriendlyName&quot;: &quot;Synthesis and DSP Effects&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Wave Tables&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Windows Movie Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Movie Player for WebM files&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Windows Device Profile Selector&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;AISupport&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Paper2D&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Environment Query Editor (Experimental)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Camera Shake Previewer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Gameplay Cameras&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;2.0&quot;, &quot;FriendlyName&quot;: &quot;CLion Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Animation Sharing&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Dump GPU Services&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;CodeLite Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;PIX for Windows GPU Capture Plugin&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 14, &quot;VersionName&quot;: &quot;1.4&quot;, &quot;FriendlyName&quot;: &quot;Git&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Linux Compiler-only Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;KDevelop Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 80, &quot;VersionName&quot;: &quot;1.8.0&quot;, &quot;FriendlyName&quot;: &quot;Plastic SCM&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Plugin Utilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Perforce&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Property Access Node&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;RenderDoc Plugin&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Subversion&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;1.5&quot;, &quot;FriendlyName&quot;: &quot;Rider Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;UDP Messaging&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;TCP Messaging&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Actor Sequence (Experimental)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Oodle Texture&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Trace Data Filtering&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Level Sequence Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;UObject Example Plugin&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;XCode Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Launcher Chunk Installer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Visual Studio Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Template Sequence&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Sequencer Scripting&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Visual Studio Code Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Interchange Tests&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem iOS&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem GooglePlay&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Object Mixer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Light Mixer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Content Browser - Asset Data Source&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Content Browser - Class Data Source&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Content Browser - File Data Source&quot; }</Plugin>
+	</EnabledPlugins>
+</FGenericCrashContext>

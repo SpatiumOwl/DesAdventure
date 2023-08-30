@@ -5,6 +5,19 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/Sprites/Idle/Des_Idle0.uasset",
+				"/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/Sprites/Idle/FB_Idle.uasset",
+				"/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/Sprites/Idle/Des_Idle0_Sprite.uasset",
+				"/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/Sprites/BP_Des.uasset",
+				"/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/BP_Des.uasset",
+				"/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Input/I_Move.uasset",
+				"/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Input/IMC_Des.uasset",
+				"/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Input/I_Jump.uasset",
+				"/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Input/IA_Jump.uasset",
+				"/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Input/IA_Move.uasset",
+				"/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/PC_Des.uasset",
+				"/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/GM_Des.uasset",
+				"/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Maps/TestMap.umap",
 				"/home/spatiumowl/Creative Projects/Game Projects/Unreal/DesAdventureSrc/Content/Maps/TestMap.umap"
 			]
 		}

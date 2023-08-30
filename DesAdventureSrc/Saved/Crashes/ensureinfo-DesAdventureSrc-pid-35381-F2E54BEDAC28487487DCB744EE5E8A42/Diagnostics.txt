@@ -1,0 +1,51 @@
+Generating report for minidump
+
+Application version 5.2.1.0
+ ... built from changelist 0
+
+OS version Linux 6.4.10-202.fsync.fc38.x86_64 (network name: WitchyMaePC)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "Ensure condition failed: NewObject->IsA(this->GeneratedClass)  [File:./Runtime/Engine/Private/Blueprint.cpp] [Line: 875] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Engine.so!UBlueprint::SetObjectBeingDebugged(UObject*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Blueprint.cpp:871]
+libUnrealEditor-UnrealEd.so!FKismetDebugUtilities::OnScriptException(UObject const*, FFrame const&, FBlueprintExceptionInfo const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/Kismet2/KismetDebugUtilities.cpp:275]
+libUnrealEditor-UnrealEd.so!TBaseStaticDelegateInstance<void (UObject const*, FFrame const&, FBlueprintExceptionInfo const&), FDefaultDelegateUserPolicy>::ExecuteIfSafe(UObject const*, FFrame const&, FBlueprintExceptionInfo const&) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:656]
+libUnrealEditor-CoreUObject.so!void TMulticastDelegateBase<FDefaultDelegateUserPolicy>::Broadcast<IBaseDelegateInstance<void (UObject const*, FFrame const&, FBlueprintExceptionInfo const&), FDefaultDelegateUserPolicy>, TDelegate<void (UObject const*, FFrame const&, FBlueprintExceptionInfo const&), FDefaultDelegateUserPolicy>, UObject const*, FFrame const&, FBlueprintExceptionInfo const&>(UObject const*, FFrame const&, FBlueprintExceptionInfo const&) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/MulticastDelegateBase.h:204]
+libUnrealEditor-CoreUObject.so!FBlueprintCoreDelegates::ThrowScriptException(UObject const*, FFrame&, FBlueprintExceptionInfo const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:232]
+libUnrealEditor-CoreUObject.so!UObject::execTracepoint(UObject*, FFrame&, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:2429]
+libUnrealEditor-CoreUObject.so!ProcessLocalScriptFunction(UObject*, FFrame&, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:1230]
+libUnrealEditor-CoreUObject.so!UFunction::Invoke(UObject*, FFrame&, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:6411]
+libUnrealEditor-CoreUObject.so!UObject::ProcessEvent(UFunction*, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/ScriptCore.cpp:2129]
+libUnrealEditor-Engine.so!AActor::ProcessEvent(UFunction*, void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Actor.cpp:1055]
+libUnrealEditor-Engine.so!AActor::BeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Actor.cpp:4173]
+libUnrealEditor-Engine.so!APawn::BeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Pawn.cpp:176]
+libUnrealEditor-Engine.so!AActor::DispatchBeginPlay(bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Actor.cpp:4113]
+libUnrealEditor-Engine.so!AWorldSettings::NotifyBeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/WorldSettings.cpp:281]
+libUnrealEditor-Engine.so!AGameStateBase::HandleBeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/GameStateBase.cpp:225]
+libUnrealEditor-Engine.so!AGameModeBase::StartPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/GameModeBase.cpp:197]
+libUnrealEditor-Engine.so!UWorld::BeginPlay() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/World.cpp:4874]
+libUnrealEditor-Engine.so!UGameInstance::StartPlayInEditorGameInstance(ULocalPlayer*, FGameInstancePIEParameters const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/GameInstance.cpp:552]
+libUnrealEditor-UnrealEd.so!UEditorEngine::CreateInnerProcessPIEGameInstance(FRequestPlaySessionParams&, FGameInstancePIEParameters const&, int) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:3225]
+libUnrealEditor-UnrealEd.so!UEditorEngine::OnLoginPIEComplete_Deferred(int, bool, FString, FPieLoginStruct) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1679]
+libUnrealEditor-UnrealEd.so!UEditorEngine::CreateNewPlayInEditorInstance(FRequestPlaySessionParams&, bool, EPlayNetMode) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1939]
+libUnrealEditor-UnrealEd.so!UEditorEngine::StartPlayInEditorSession(FRequestPlaySessionParams&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:2952]
+libUnrealEditor-UnrealEd.so!UEditorEngine::StartQueuedPlaySessionRequestImpl() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1244]
+libUnrealEditor-UnrealEd.so!UEditorEngine::StartQueuedPlaySessionRequest() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1156]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/EditorEngine.cpp:1791]
+libUnrealEditor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/UnrealEdEngine.cpp:516]
+UnrealEditor!FEngineLoop::Tick() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5806]
+UnrealEditor!GuardedMain(char16_t const*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x23b49)
+libc.so.6!__libc_start_main(+0x8a)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
