@@ -1,0 +1,29 @@
+Generating report for minidump
+
+Application version 5.2.1.0
+ ... built from changelist 0
+
+OS version Linux 6.4.10-202.fsync.fc38.x86_64 (network name: WitchyMaePC)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "Ensure condition failed: !PersistentLayout->PrimaryArea.IsValid()  [File:./Runtime/Slate/Private/Framework/Docking/TabManager.cpp] [Line: 931] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Slate.so!FTabManager::PersistLayout() const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Docking/TabManager.cpp:931]
+libUnrealEditor-Slate.so!FTabManager::SavePersistentLayout() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Docking/TabManager.cpp:960]
+libUnrealEditor-Slate.so!TBaseFunctorDelegateInstance<bool (float), FDefaultDelegateUserPolicy, FTabManager::RequestSavePersistentLayout()::$_65>::Execute(float) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:738]
+libUnrealEditor-Core.so!FTSTicker::Tick(float) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Core/Private/Containers/Ticker.cpp:110]
+UnrealEditor!FEngineLoop::Tick() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:6049]
+UnrealEditor!GuardedMain(char16_t const*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x23b49)
+libc.so.6!__libc_start_main(+0x8a)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

@@ -1,0 +1,58 @@
+Generating report for minidump
+
+Application version 5.2.1.0
+ ... built from changelist 0
+
+OS version Linux 6.4.10-202.fsync.fc38.x86_64 (network name: WitchyMaePC)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "Ensure condition failed: false  [File:./Editor/UnrealEd/Private/ObjectTools.cpp] [Line: 3577] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-UnrealEd.so!ObjectTools::ForceDeleteObjects(TArray<UObject*, TSizedDefaultAllocator<32> > const&, bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/ObjectTools.cpp:3571]
+libUnrealEditor-UnrealEd.so!FAssetDeleteModel::DoForceDelete() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/AssetDeleteModel.cpp:322]
+libUnrealEditor-UnrealEd.so!SDeleteAssetsDialog::ForceDelete() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/Dialogs/SDeleteAssetsDialog.cpp:713]
+libUnrealEditor-UnrealEd.so!TBaseSPMethodDelegateInstance<false, SDeleteAssetsDialog, (ESPMode)1, FReply (), FDefaultDelegateUserPolicy>::Execute() const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:275]
+libUnrealEditor-Slate.so!SButton::ExecuteOnClick() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Widgets/Input/SButton.cpp:465]
+libUnrealEditor-Slate.so!SButton::OnMouseButtonUp(FGeometry const&, FPointerEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Widgets/Input/SButton.cpp:390]
+libUnrealEditor-Slate.so!FSlateApplication::RoutePointerUpEvent(FWidgetPath const&, FPointerEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5116]
+libUnrealEditor-Slate.so!FSlateApplication::ProcessMouseButtonUpEvent(FPointerEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5684]
+libUnrealEditor-Slate.so!FSlateApplication::OnMouseUp(EMouseButtons::Type, UE::Math::TVector2<double>) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5649]
+libUnrealEditor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:414]
+libUnrealEditor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:436]
+libUnrealEditor-Slate.so!FSlateApplication::TickPlatform(float) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:1549]
+libUnrealEditor-Slate.so!FSlateApplication::AddModalWindow(TSharedRef<SWindow, (ESPMode)1>, TSharedPtr<SWidget const, (ESPMode)1>, bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:2076]
+libUnrealEditor-UnrealEd.so!UEditorEngine::EditorAddModalWindow(TSharedRef<SWindow, (ESPMode)1>) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/EditorEngine.cpp:4185]
+libUnrealEditor-UnrealEd.so!ObjectTools::DeleteObjects(TArray<UObject*, TSizedDefaultAllocator<32> > const&, bool, ObjectTools::EAllowCancelDuringDelete) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/ObjectTools.cpp:2783]
+libUnrealEditor-UnrealEd.so!ObjectTools::DeleteAssets(TArray<FAssetData, TSizedDefaultAllocator<32> > const&, bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/ObjectTools.cpp:2544]
+libUnrealEditor-ContentBrowserAssetDataSource.so!ContentBrowserAssetData::DeleteAssetFileItems(TArrayView<TSharedRef<FContentBrowserAssetFileItemDataPayload const, (ESPMode)1> const, int>) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./../Plugins/Editor/ContentBrowser/ContentBrowserAssetDataSource/Source/ContentBrowserAssetDataSource/Private/ContentBrowserAssetDataCore.cpp:801]
+libUnrealEditor-ContentBrowserAssetDataSource.so!ContentBrowserAssetData::DeleteItems(IAssetTools*, IAssetRegistry*, UContentBrowserDataSource const*, TArrayView<FContentBrowserItemData const, int>) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./../Plugins/Editor/ContentBrowser/ContentBrowserAssetDataSource/Source/ContentBrowserAssetDataSource/Private/ContentBrowserAssetDataCore.cpp:737]
+libUnrealEditor-ContentBrowser.so!FAssetContextMenu::ExecuteDelete() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/ContentBrowser/Private/AssetContextMenu.cpp:924]
+libUnrealEditor-ContentBrowser.so!SContentBrowser::HandleDeleteCommandExecute() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/ContentBrowser/Private/SContentBrowser.cpp:3385]
+libUnrealEditor-ContentBrowser.so!TBaseSPMethodDelegateInstance<false, SContentBrowser, (ESPMode)1, void (), FDefaultDelegateUserPolicy>::ExecuteIfSafe() const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:292]
+libUnrealEditor-Slate.so!FUICommandList::ExecuteAction(TSharedRef<FUICommandInfo const, (ESPMode)1>) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:111]
+libUnrealEditor-Slate.so!SMenuEntryBlock::OnClicked(bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/MultiBox/SMenuEntryBlock.cpp:1148]
+libUnrealEditor-Slate.so!SMenuEntryBlock::OnMenuItemButtonClicked() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/MultiBox/SMenuEntryBlock.cpp:1107]
+libUnrealEditor-Slate.so!TBaseSPMethodDelegateInstance<false, SMenuEntryBlock, (ESPMode)1, FReply (), FDefaultDelegateUserPolicy>::Execute() const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:275]
+libUnrealEditor-Slate.so!SButton::ExecuteOnClick() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Widgets/Input/SButton.cpp:465]
+libUnrealEditor-Slate.so!SButton::OnMouseButtonUp(FGeometry const&, FPointerEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Widgets/Input/SButton.cpp:390]
+libUnrealEditor-Slate.so!SMenuEntryButton::OnMouseButtonUp(FGeometry const&, FPointerEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/MultiBox/SMenuEntryBlock.cpp:431]
+libUnrealEditor-Slate.so!FSlateApplication::RoutePointerUpEvent(FWidgetPath const&, FPointerEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5116]
+libUnrealEditor-Slate.so!FSlateApplication::ProcessMouseButtonUpEvent(FPointerEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5684]
+libUnrealEditor-Slate.so!FSlateApplication::OnMouseUp(EMouseButtons::Type, UE::Math::TVector2<double>) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5649]
+libUnrealEditor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:414]
+libUnrealEditor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:436]
+UnrealEditor!FEngineLoop::Tick() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5730]
+UnrealEditor!GuardedMain(char16_t const*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x23b49)
+libc.so.6!__libc_start_main(+0x8a)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
