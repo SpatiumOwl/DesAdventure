@@ -1,0 +1,28 @@
+Generating report for minidump
+
+Application version 5.2.1.0
+ ... built from changelist 0
+
+OS version Linux 6.5.3-200.fsync.fc38.x86_64 (network name: WitchyMaePC)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "Ensure condition failed: FPackageName::DoesPackageExist(PackageName, &PackageFilename)  [File:./Editor/Kismet/Private/FindInBlueprintManager.cpp] [Line: 402] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Kismet.so!FiBSerializationHelpers::ValidateSearchDataVersionInfo(FString const&, FString const&, FSearchDataVersionInfo&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/Kismet/Private/FindInBlueprintManager.cpp:402]
+libUnrealEditor-Kismet.so!FAsyncSearchIndexTaskRunnable::Run()::'lambda'(int)::operator()(int) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/Kismet/Private/FindInBlueprintManager.cpp:1369]
+libUnrealEditor-Kismet.so!void ParallelForImpl::ParallelForInternal<TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, EParallelForFlags)::'lambda'(), std::nullptr_t>(char16_t const*, int, int, TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, EParallelForFlags)::'lambda'(), EParallelForFlags, TArrayView<std::nullptr_t, int> const&)::FParallelExecutor::operator()(bool, char16_t const*) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Async/ParallelFor.h:336]
+libUnrealEditor-Kismet.so!void ParallelForImpl::ParallelForInternal<TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, EParallelForFlags)::'lambda'(), std::nullptr_t>(char16_t const*, int, int, TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, EParallelForFlags)::'lambda'(), EParallelForFlags, TArrayView<std::nullptr_t, int> const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Async/ParallelFor.h:403]
+libUnrealEditor-Kismet.so!FAsyncSearchIndexTaskRunnable::Run() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/Kismet/Private/FindInBlueprintManager.cpp:1349]
+libUnrealEditor-Core.so!FRunnableThreadPThread::Run() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+libUnrealEditor-Core.so!FRunnableThreadPThread::_ThreadProc(void*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:187]
+libc.so.6!UnknownFunction(0x888a6)
+libc.so.6!__clone(+0x43)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
