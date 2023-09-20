@@ -1,0 +1,55 @@
+Generating report for minidump
+
+Application version 5.2.1.0
+ ... built from changelist 0
+
+OS version Linux 6.5.3-200.fsync.fc38.x86_64 (network name: WitchyMaePC)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "Ensure condition failed: !GIsTransacting  [File:Editor/UnrealEd/Classes/Editor/TransBuffer.h] [Line: 72] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-UnrealEd.so!int UTransBuffer::BeginInternal<FTransaction>(char16_t const*, FText const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Editor/UnrealEd/Classes/Editor/TransBuffer.h:72]
+libUnrealEditor-UnrealEd.so!UEditorEngine::BeginTransaction(char16_t const*, FText const&, UObject*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/EditorServer.cpp:1102]
+libUnrealEditor-PropertyEditor.so!FPropertyValueImpl::ImportText(TArray<FObjectBaseAddress, TSizedDefaultAllocator<32> > const&, TArray<FString, TSizedDefaultAllocator<32> > const&, FPropertyNode*, unsigned int) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/PropertyEditor/Private/PropertyHandleImpl.cpp:400]
+libUnrealEditor-PropertyEditor.so!FPropertyValueImpl::ImportText(FString const&, FPropertyNode*, unsigned int) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/PropertyEditor/Private/PropertyHandleImpl.cpp:238]
+libUnrealEditor-PropertyEditor.so!FPropertyValueImpl::SetValueAsString(FString const&, unsigned int) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/PropertyEditor/Private/PropertyHandleImpl.cpp:756]
+libUnrealEditor-PropertyEditor.so!FPropertyHandleObject::SetValueFromFormattedString(FString const&, unsigned int, bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/PropertyEditor/Private/PropertyHandleImpl.cpp:4095]
+libUnrealEditor-PropertyEditor.so!FPropertyHandleObject::SetValue(UObject const* const&, unsigned int) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/PropertyEditor/Private/PropertyHandleImpl.cpp:3881]
+libUnrealEditor-BehaviorTreeEditor.so!FBlackboardSelectorDetails::OnKeyComboChange(int) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/BehaviorTreeEditor/Private/DetailCustomizations/BlackboardSelectorDetails.cpp:282]
+libUnrealEditor-BehaviorTreeEditor.so!FBlackboardSelectorDetails::InitKeyFromProperty() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/BehaviorTreeEditor/Private/DetailCustomizations/BlackboardSelectorDetails.cpp:237]
+libUnrealEditor-BehaviorTreeEditor.so!TBaseSPMethodDelegateInstance<false, FBlackboardSelectorDetails, (ESPMode)1, void (UBlackboardData*), FDefaultDelegateUserPolicy>::ExecuteIfSafe(UBlackboardData*) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:292]
+libUnrealEditor-AIModule.so!void TMulticastDelegateBase<FDefaultDelegateUserPolicy>::Broadcast<IBaseDelegateInstance<void (UBlackboardData*), FDefaultDelegateUserPolicy>, TDelegate<void (UBlackboardData*), FDefaultDelegateUserPolicy>, UBlackboardData*>(UBlackboardData*) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/MulticastDelegateBase.h:204]
+libUnrealEditor-AIModule.so!UBlackboardData::PostEditChangeProperty(FPropertyChangedEvent&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/AIModule/Private/BehaviorTree/BlackboardData.cpp:215]
+libUnrealEditor-CoreUObject.so!UObject::PostEditChange() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:374]
+libUnrealEditor-UnrealEd.so!FTransaction::Apply() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/EditorTransaction.cpp:912]
+libUnrealEditor-UnrealEd.so!UTransBuffer::Undo(bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/EditorTransaction.cpp:1538]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Exec_Transaction(char16_t const*, FOutputDevice&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/EditorServer.cpp:5406]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Exec_Editor(UWorld*, char16_t const*, FOutputDevice&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/EditorServer.cpp:5804]
+libUnrealEditor-Core.so!FExec::Exec(UWorld*, char16_t const*, FOutputDevice&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Core/Private/Misc/Exec.cpp:15]
+libUnrealEditor-Engine.so!UEngine::Exec(UWorld*, char16_t const*, FOutputDevice&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/UnrealEngine.cpp:4628]
+libUnrealEditor-UnrealEd.so!UUnrealEdEngine::Exec(UWorld*, char16_t const*, FOutputDevice&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/UnrealEdSrv.cpp:661]
+libUnrealEditor-Core.so!decltype(auto) UE::Core::Private::Tuple::TTupleBase<TIntegerSequence<unsigned int, 0u>, FString>::ApplyAfter<void (* const&)(FString)>(void (* const&&&)(FString)) const & [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/Tuple.h:321]
+libUnrealEditor-Core.so!TBaseStaticDelegateInstance<void (), FDefaultDelegateUserPolicy, FString>::ExecuteIfSafe() const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:656]
+libUnrealEditor-Slate.so!FUICommandList::ConditionalProcessCommandBindings(FKey, bool, bool, bool, bool, bool) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:229]
+libUnrealEditor-Slate.so!FUICommandList::ProcessCommandBindings(FKeyEvent const&) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:172]
+libUnrealEditor-MainFrame.so!FMainFrameActionCallbacks::OnUnhandledKeyDownEvent(FKeyEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/MainFrame/Private/Frame/MainFrameActions.cpp:269]
+libUnrealEditor-MainFrame.so!TBaseStaticDelegateInstance<FReply (FKeyEvent const&), FDefaultDelegateUserPolicy>::Execute(FKeyEvent const&) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:648]
+libUnrealEditor-Slate.so!FSlateApplication::ProcessKeyDownEvent(FKeyEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4643]
+libUnrealEditor-Slate.so!FSlateApplication::OnKeyDown(int, unsigned int, bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4530]
+libUnrealEditor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:308]
+libUnrealEditor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:436]
+UnrealEditor!FEngineLoop::Tick() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5730]
+UnrealEditor!GuardedMain(char16_t const*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x23b49)
+libc.so.6!__libc_start_main(+0x8a)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

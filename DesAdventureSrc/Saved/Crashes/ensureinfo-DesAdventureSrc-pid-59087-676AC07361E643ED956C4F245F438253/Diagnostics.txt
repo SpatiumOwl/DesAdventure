@@ -1,0 +1,43 @@
+Generating report for minidump
+
+Application version 5.2.1.0
+ ... built from changelist 0
+
+OS version Linux 6.5.3-200.fsync.fc38.x86_64 (network name: WitchyMaePC)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "Ensure condition failed: BBAsset  [File:./Runtime/AIModule/Private/BehaviorTree/Tasks/BTTask_WaitBlackboardTime.cpp] [Line: 21] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-AIModule.so!UBTTask_WaitBlackboardTime::InitializeFromAsset(UBehaviorTree&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/AIModule/Private/BehaviorTree/Tasks/BTTask_WaitBlackboardTime.cpp:21]
+libUnrealEditor-BehaviorTreeEditor.so!UBehaviorTreeGraphNode::InitializeInstance() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/BehaviorTreeEditor/Private/BehaviorTreeGraphNode.cpp:57]
+libUnrealEditor-AIGraph.so!UAIGraphNode::PostPlacedNewNode() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/AIGraph/Private/AIGraphNode.cpp:42]
+libUnrealEditor-AIGraph.so!FAISchemaAction_NewNode::PerformAction(UEdGraph*, UEdGraphPin*, UE::Math::TVector2<double>, bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/AIGraph/Private/AIGraphSchema.cpp:70]
+libUnrealEditor-AIGraph.so!FAISchemaAction_NewNode::PerformAction(UEdGraph*, TArray<UEdGraphPin*, TSizedDefaultAllocator<32> >&, UE::Math::TVector2<double>, bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/AIGraph/Private/AIGraphSchema.cpp:107]
+libUnrealEditor-GraphEditor.so!SGraphEditorActionMenu::OnActionSelected(TArray<TSharedPtr<FEdGraphSchemaAction, (ESPMode)1>, TSizedDefaultAllocator<32> > const&, ESelectInfo::Type) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/GraphEditor/Private/SGraphEditorActionMenu.cpp:97]
+libUnrealEditor-GraphEditor.so!TBaseSPMethodDelegateInstance<false, SGraphEditorActionMenu, (ESPMode)1, void (TArray<TSharedPtr<FEdGraphSchemaAction, (ESPMode)1>, TSizedDefaultAllocator<32> > const&, ESelectInfo::Type), FDefaultDelegateUserPolicy>::Execute(TArray<TSharedPtr<FEdGraphSchemaAction, (ESPMode)1>, TSizedDefaultAllocator<32> > const&, ESelectInfo::Type) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:275]
+libUnrealEditor-GraphEditor.so!SGraphActionMenu::HandleSelection(TSharedPtr<FGraphActionNode, (ESPMode)1>&, ESelectInfo::Type) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/GraphEditor/Private/SGraphActionMenu.cpp:1326]
+libUnrealEditor-GraphEditor.so!TBaseSPMethodDelegateInstance<false, SGraphActionMenu, (ESPMode)1, void (TSharedPtr<FGraphActionNode, (ESPMode)1>, ESelectInfo::Type), FDefaultDelegateUserPolicy>::ExecuteIfSafe(TSharedPtr<FGraphActionNode, (ESPMode)1>, ESelectInfo::Type) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:292]
+libUnrealEditor-GraphEditor.so!SListView<TSharedPtr<FGraphActionNode, (ESPMode)1> >::Private_SignalSelectionChanged(ESelectInfo::Type) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Slate/Public/Widgets/Views/SListView.h:992]
+libUnrealEditor-GraphEditor.so!non-virtual thunk to STreeView<TSharedPtr<FGraphActionNode, (ESPMode)1> >::Private_SignalSelectionChanged(ESelectInfo::Type) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Slate/Public/Widgets/Views/STreeView.h:0]
+libUnrealEditor-GraphEditor.so!STableRow<TSharedPtr<FGraphActionNode, (ESPMode)1> >::OnMouseButtonUp(FGeometry const&, FPointerEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Slate/Public/Widgets/Views/STableRow.h:579]
+libUnrealEditor-GraphEditor.so!non-virtual thunk to STableRow<TSharedPtr<FGraphActionNode, (ESPMode)1> >::OnMouseButtonUp(FGeometry const&, FPointerEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Slate/Public/Widgets/Views/STableRow.h:0]
+libUnrealEditor-Slate.so!FSlateApplication::RoutePointerUpEvent(FWidgetPath const&, FPointerEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5116]
+libUnrealEditor-Slate.so!FSlateApplication::ProcessMouseButtonUpEvent(FPointerEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5684]
+libUnrealEditor-Slate.so!FSlateApplication::OnMouseUp(EMouseButtons::Type, UE::Math::TVector2<double>) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5649]
+libUnrealEditor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:414]
+libUnrealEditor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:436]
+UnrealEditor!FEngineLoop::Tick() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5730]
+UnrealEditor!GuardedMain(char16_t const*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x23b49)
+libc.so.6!__libc_start_main(+0x8a)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-09-19T13:57:39.334Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="TO1JcU6ttogicQ7pR-D9" version="21.3.7" type="device">
+<mxfile host="Electron" modified="2023-09-20T08:01:30.607Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="MAcJeo0_022MPEwnDUEV" version="21.3.7" type="device">
   <diagram name="General Plan" id="OGCX2nEGkCkGxa0oHF3A">
     <mxGraphModel dx="2284" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -12,23 +12,23 @@
             <mxGeometry y="28" width="300" height="722" as="geometry" />
           </mxCell>
         </object>
-        <object label="Animate GunCoon" placeholders="1" id="zGhgZPP_7QtwEVzm66PT-2">
+        <object label="Add character shadows" placeholders="1" id="whunDvAdWYy-_juXgTY0-1">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;shadow=0;fillOpacity=30;strokeOpacity=100;fontColor=#ffffff;" vertex="1" parent="GKQWI9ghuT4y3DB09Xu3-2">
             <mxGeometry x="20" y="21" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="Animate Run" placeholders="1" id="jaDsAjI250pPK-45uGd0-4">
-          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;fillOpacity=30;fontColor=#ffffff;" parent="GKQWI9ghuT4y3DB09Xu3-2" vertex="1">
+        <object label="Animate GunCoon" placeholders="1" id="zGhgZPP_7QtwEVzm66PT-2">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;shadow=0;fillOpacity=30;strokeOpacity=100;fontColor=#ffffff;" parent="GKQWI9ghuT4y3DB09Xu3-2" vertex="1">
             <mxGeometry x="20" y="81" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="Animate Jump" placeholders="1" id="jaDsAjI250pPK-45uGd0-2">
+        <object label="Animate Run" placeholders="1" id="jaDsAjI250pPK-45uGd0-4">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;fillOpacity=30;fontColor=#ffffff;" parent="GKQWI9ghuT4y3DB09Xu3-2" vertex="1">
             <mxGeometry x="20" y="141" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="Implement animations" placeholders="1" id="jaDsAjI250pPK-45uGd0-5">
-          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;shadow=0;fillOpacity=30;strokeOpacity=100;fontColor=#ffffff;" parent="GKQWI9ghuT4y3DB09Xu3-2" vertex="1">
+        <object label="Animate Jump" placeholders="1" id="jaDsAjI250pPK-45uGd0-2">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#A50040;fillOpacity=30;fontColor=#ffffff;" parent="GKQWI9ghuT4y3DB09Xu3-2" vertex="1">
             <mxGeometry x="20" y="201" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
@@ -68,7 +68,7 @@
           </mxCell>
         </object>
         <object label="Program jumping for GunCoon" placeholders="1" id="zGhgZPP_7QtwEVzm66PT-3">
-          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#60a917;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#2D7600;fillOpacity=30;fontColor=#ffffff;" vertex="1" parent="GKQWI9ghuT4y3DB09Xu3-4">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#60a917;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#2D7600;fillOpacity=30;fontColor=#ffffff;" parent="GKQWI9ghuT4y3DB09Xu3-4" vertex="1">
             <mxGeometry x="20" y="21" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
@@ -108,12 +108,12 @@
           </mxCell>
         </object>
         <object label="Create GunCoon" placeholders="1" id="zGhgZPP_7QtwEVzm66PT-4">
-          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#1ba1e2;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#006EAF;fillOpacity=30;fontColor=#ffffff;" vertex="1" parent="GKQWI9ghuT4y3DB09Xu3-6">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#1ba1e2;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#006EAF;fillOpacity=30;fontColor=#ffffff;" parent="GKQWI9ghuT4y3DB09Xu3-6" vertex="1">
             <mxGeometry x="20" y="381" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
         <object label="Make GunCoon follow and shoot" placeholders="1" id="zGhgZPP_7QtwEVzm66PT-5">
-          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#1ba1e2;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#006EAF;fillOpacity=30;fontColor=#ffffff;" vertex="1" parent="GKQWI9ghuT4y3DB09Xu3-6">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#1ba1e2;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#006EAF;fillOpacity=30;fontColor=#ffffff;" parent="GKQWI9ghuT4y3DB09Xu3-6" vertex="1">
             <mxGeometry x="20" y="441" width="260" height="40" as="geometry" />
           </mxCell>
         </object>
