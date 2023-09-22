@@ -1,0 +1,103 @@
+Generating report for minidump
+
+Application version 5.2.1.0
+ ... built from changelist 0
+
+OS version Linux 6.5.3-arch1-1 (network name: WitchyMaePC)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000090"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-UnrealEd.so!void TMultiMap<IAssetEditorInstance*, UAssetEditorSubsystem::FAssetEntry, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<IAssetEditorInstance*, UAssetEditorSubsystem::FAssetEntry, true> >::MultiFind<TSizedDefaultAllocator<32> >(IAssetEditorInstance*, TArray<UAssetEditorSubsystem::FAssetEntry, TSizedDefaultAllocator<32> >&, bool) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Containers/Map.h:1369]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::NotifyEditorClosed(IAssetEditorInstance*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:251]
+libUnrealEditor-UnrealEd.so!FAssetEditorToolkit::~FAssetEditorToolkit() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/Toolkits/AssetEditorToolkit.cpp:330]
+libUnrealEditor-Kismet.so!FBlueprintEditor::~FBlueprintEditor() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/Kismet/Private/BlueprintEditor.cpp:2866]
+libUnrealEditor-UMGEditor.so!FWidgetBlueprintEditor::~FWidgetBlueprintEditor() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UMGEditor/Private/WidgetBlueprintEditor.cpp:139]
+libUnrealEditor-UMGEditor.so!FWidgetBlueprintEditor::~FWidgetBlueprintEditor() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UMGEditor/Private/WidgetBlueprintEditor.cpp:113]
+libUnrealEditor-UMGEditor.so!TCommonDelegateInstanceState<TSharedRef<IDetailCustomization, (ESPMode)1> (), FDefaultDelegateUserPolicy, TSharedRef<FWidgetBlueprintEditor, (ESPMode)1>, UBlueprint*>::~TCommonDelegateInstanceState() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:34]
+libUnrealEditor-PropertyEditor.so!TDelegate<TSharedRef<IDetailCustomization, (ESPMode)1> (), FDefaultDelegateUserPolicy>::~TDelegate() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:388]
+libUnrealEditor-PropertyEditor.so!TSparseArray<TSetElement<TTuple<TWeakObjectPtr<UStruct, FWeakObjectPtr>, FDetailLayoutCallback> >, TSparseArrayAllocator<TSizedDefaultAllocator<32>, FDefaultBitArrayAllocator> >::Empty(int) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Containers/SparseArray.h:384]
+libUnrealEditor-PropertyEditor.so!SDetailsViewBase::~SDetailsViewBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/PropertyEditor/Private/SDetailsViewBase.cpp:61]
+libUnrealEditor-PropertyEditor.so!SDetailsView::~SDetailsView() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/PropertyEditor/Private/SDetailsView.cpp:44]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SVerticalBox::FSlot::~FSlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:337]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SVerticalBox, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-UMGEditor.so!SWidgetDetailsView::~SWidgetDetailsView() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UMGEditor/Private/Details/SWidgetDetailsView.cpp:209]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-MoviePlayer.so!SharedPointerInternals::TIntrusiveReferenceController<SBorder, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-SlateCore.so!SOverlay::FOverlaySlot::~FOverlaySlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/SlateCore/Public/Widgets/SOverlay.h:41]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SOverlay, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SVerticalBox::FSlot::~FSlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:337]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SVerticalBox, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SDockingTabStack::~SDockingTabStack() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Slate/Private/Framework/Docking/SDockingTabStack.h:51]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SSplitter::FSlot::~FSlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Slate/Public/Widgets/Layout/SSplitter.h:64]
+libUnrealEditor-Slate.so!SharedPointerInternals::TIntrusiveReferenceController<SSplitter, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SDockingSplitter::~SDockingSplitter() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Slate/Private/Framework/Docking/SDockingSplitter.h:13]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SSplitter::FSlot::~FSlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Slate/Public/Widgets/Layout/SSplitter.h:64]
+libUnrealEditor-Slate.so!SharedPointerInternals::TIntrusiveReferenceController<SSplitter, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SDockingSplitter::~SDockingSplitter() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Slate/Private/Framework/Docking/SDockingSplitter.h:13]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SSplitter::FSlot::~FSlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Slate/Public/Widgets/Layout/SSplitter.h:64]
+libUnrealEditor-Slate.so!SharedPointerInternals::TIntrusiveReferenceController<SSplitter, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SHorizontalBox::FSlot::~FSlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:234]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SHorizontalBox, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-SlateCore.so!SOverlay::FOverlaySlot::~FOverlaySlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/SlateCore/Public/Widgets/SOverlay.h:41]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SOverlay, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SDockingSplitter::~SDockingSplitter() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Slate/Private/Framework/Docking/SDockingSplitter.h:13]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SVerticalBox::FSlot::~FSlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:337]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SVerticalBox, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-UnrealEd.so!SStandaloneAssetEditorToolkitHost::~SStandaloneAssetEditorToolkitHost() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/Toolkits/SStandaloneAssetEditorToolkitHost.cpp:264]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-MoviePlayer.so!SharedPointerInternals::TIntrusiveReferenceController<SBorder, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-SlateCore.so!SOverlay::FOverlaySlot::~FOverlaySlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/SlateCore/Public/Widgets/SOverlay.h:41]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SOverlay, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SVerticalBox::FSlot::~FSlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:337]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SVerticalBox, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SDockingTabStack::~SDockingTabStack() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Slate/Private/Framework/Docking/SDockingTabStack.h:51]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SSplitter::FSlot::~FSlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Slate/Public/Widgets/Layout/SSplitter.h:64]
+libUnrealEditor-Slate.so!SharedPointerInternals::TIntrusiveReferenceController<SSplitter, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SHorizontalBox::FSlot::~FSlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:234]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SHorizontalBox, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-SlateCore.so!SOverlay::FOverlaySlot::~FOverlaySlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/SlateCore/Public/Widgets/SOverlay.h:41]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SOverlay, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SDockingSplitter::~SDockingSplitter() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Slate/Private/Framework/Docking/SDockingSplitter.h:13]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SVerticalBox::FSlot::~FSlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:337]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SVerticalBox, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SVerticalBox::FSlot::~FSlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:337]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SVerticalBox, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-SlateCore.so!SOverlay::FOverlaySlot::~FOverlaySlot() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/SlateCore/Public/Widgets/SOverlay.h:41]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SOverlay, (ESPMode)1>::DestroyObject() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-SlateCore.so!SWindow::~SWindow() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWindow.cpp:2047]
+libU
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
