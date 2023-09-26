@@ -29072,3 +29072,273 @@ FDetailCategoryImpl::GenerateChildrenForSingleLayout(FDetailLayout const&, TArra
 [2023.09.26-12.07.56:675][272]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 11.4 sec)
 [2023.09.26-12.07.56:680][272]AssetCheck: New page: Asset Save: TestMap
 [2023.09.26-12.07.56:680][272]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/TestMap.TestMap
+[2023.09.26-12.08.44:705][460]LogAutomationController: Ignoring very large delta of 44.15 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.09.26-12.10.45:642][218]LogContentBrowser: Attempting asset rename: GunCoon -> GunCoon
+[2023.09.26-12.10.58:517][510]LogContentBrowser: Attempting asset rename: GunCoon -> GunCoon
+[2023.09.26-12.11.05:956][270]LogContentBrowser: Attempting asset rename: AIC_GunCoon -> AIC_Guncoon
+[2023.09.26-12.11.05:972][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.RenameTmp:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/AIC_GunCoon.PackageMetaData'
+[2023.09.26-12.11.05:972][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.RenameTmp_C' ref from Metadata '/Game/Characters/Enemies/GunCoon/AIC_GunCoon.PackageMetaData'
+[2023.09.26-12.11.05:972][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.RenameTmp:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/AIC_GunCoon.PackageMetaData'
+[2023.09.26-12.11.05:972][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.SKEL_RenameTmp_C' ref from Metadata '/Game/Characters/Enemies/GunCoon/AIC_GunCoon.PackageMetaData'
+[2023.09.26-12.11.05:972][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.RenameTmp_C:ReceiveBeginPlay' ref from Metadata '/Game/Characters/Enemies/GunCoon/AIC_GunCoon.PackageMetaData'
+[2023.09.26-12.11.05:972][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.SKEL_RenameTmp_C:UserConstructionScript' ref from Metadata '/Game/Characters/Enemies/GunCoon/AIC_GunCoon.PackageMetaData'
+[2023.09.26-12.11.05:972][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.SKEL_RenameTmp_C:BndEvt__AIC_GunCoon_AIPerception_K2Node_ComponentBoundEvent_2_ActorPerceptionUpdatedDelegate__DelegateSignature' ref from Metadata '/Game/Characters/Enemies/GunCoon/AIC_GunCoon.PackageMetaData'
+[2023.09.26-12.11.05:972][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.SKEL_RenameTmp_C:Shoot' ref from Metadata '/Game/Characters/Enemies/GunCoon/AIC_GunCoon.PackageMetaData'
+[2023.09.26-12.11.05:972][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.SKEL_RenameTmp_C:ReceiveBeginPlay' ref from Metadata '/Game/Characters/Enemies/GunCoon/AIC_GunCoon.PackageMetaData'
+[2023.09.26-12.11.05:972][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.RenameTmp:Which Team.K2Node_FunctionEntry_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/AIC_GunCoon.PackageMetaData'
+[2023.09.26-12.11.05:972][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.RenameTmp:Which Team.K2Node_FunctionResult_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/AIC_GunCoon.PackageMetaData'
+[2023.09.26-12.11.06:007][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.09.26-12.11.06:027][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.09.26-12.11.06:045][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.09.26-12.11.06:047][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/AIC_Guncoon.AIC_Guncoon_C' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.06:047][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/AIC_Guncoon.AIC_Guncoon_C:ReceiveBeginPlay' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.06:047][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/AIC_Guncoon.SKEL_AIC_Guncoon_C' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.06:047][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/AIC_Guncoon.SKEL_AIC_Guncoon_C:ReceiveBeginPlay' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.06:047][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/AIC_Guncoon.SKEL_AIC_Guncoon_C:Shoot' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.06:047][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/AIC_Guncoon.SKEL_AIC_Guncoon_C:BndEvt__AIC_GunCoon_AIPerception_K2Node_ComponentBoundEvent_2_ActorPerceptionUpdatedDelegate__DelegateSignature' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.06:047][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/AIC_Guncoon.SKEL_AIC_Guncoon_C:UserConstructionScript' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.06:047][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/AIC_Guncoon.AIC_Guncoon:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.06:047][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/AIC_Guncoon.AIC_Guncoon:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.06:047][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/AIC_Guncoon.AIC_Guncoon:Which Team.K2Node_FunctionEntry_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.06:047][270]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/AIC_Guncoon.AIC_Guncoon:Which Team.K2Node_FunctionResult_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.06:047][270]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.26-12.11.06:097][270]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/GunCoon/Tasks/AI_GetContused
+[2023.09.26-12.11.06:098][270]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/AI_GetContusedBFD7E982C5064C2DB68E045B26270C16.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/Tasks/AI_GetContused.uasset'
+[2023.09.26-12.11.06:100][270]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/GunCoon/Tasks/AI_Shoot
+[2023.09.26-12.11.06:101][270]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/AI_Shoot5DA67AB28EB24B4D8170814096EFCA6E.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/Tasks/AI_Shoot.uasset'
+[2023.09.26-12.11.06:110][270]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/GunCoon/BP_GunCoon
+[2023.09.26-12.11.06:110][270]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BP_GunCoon92AEE23974874D4B9FE6485F4E10D329.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/BP_GunCoon.uasset'
+[2023.09.26-12.11.06:113][270]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/GunCoon/Tasks/AI_GetSurprised
+[2023.09.26-12.11.06:114][270]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/AI_GetSurprisedF2A6DF77061C454E855BFF6CD992F65B.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/Tasks/AI_GetSurprised.uasset'
+[2023.09.26-12.11.06:121][270]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/GunCoon/AIC_Guncoon
+[2023.09.26-12.11.06:121][270]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/AIC_GuncoonD67D32267A67499AB806A831C81B27B4.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/AIC_Guncoon.uasset'
+[2023.09.26-12.11.06:123][270]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Characters/Enemies/GunCoon/AIC_Guncoon.
+[2023.09.26-12.11.06:148][270]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 11.5 sec)
+[2023.09.26-12.11.06:172][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.09.26-12.11.06:192][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.09.26-12.11.06:210][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.09.26-12.11.06:219][270]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.26-12.11.06:219][270]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Enemies/GunCoon/BP_GunCoon.BP_GunCoon
+[2023.09.26-12.11.06:219][270]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Enemies/GunCoon/AIC_Guncoon.AIC_Guncoon
+[2023.09.26-12.11.06:219][270]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Enemies/GunCoon/Tasks/AI_GetContused.AI_GetContused
+[2023.09.26-12.11.06:219][270]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Enemies/GunCoon/Tasks/AI_GetSurprised.AI_GetSurprised
+[2023.09.26-12.11.06:219][270]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Enemies/GunCoon/Tasks/AI_Shoot.AI_Shoot
+[2023.09.26-12.11.11:418][810]LogContentBrowser: Attempting asset rename: BB_GunCoon -> BB_Guncoon
+[2023.09.26-12.11.11:456][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.09.26-12.11.11:474][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.09.26-12.11.11:492][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.09.26-12.11.11:495][810]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.26-12.11.11:550][810]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/GunCoon/BT_GunCoon
+[2023.09.26-12.11.11:551][810]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BT_GunCoonF133F607A5B14680A668CAF855344EBB.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/BT_GunCoon.uasset'
+[2023.09.26-12.11.11:551][810]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/GunCoon/BB_Guncoon
+[2023.09.26-12.11.11:551][810]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BB_Guncoon46BCDFC04AE946B999E8C3EA55B77B51.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/BB_Guncoon.uasset'
+[2023.09.26-12.11.11:603][810]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 11.6 sec)
+[2023.09.26-12.11.11:628][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.09.26-12.11.11:647][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.09.26-12.11.11:664][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.09.26-12.11.11:670][810]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.26-12.11.11:671][810]LogContentValidation: Display: Validating /Script/AIModule.BlackboardData /Game/Characters/Enemies/GunCoon/BB_Guncoon.BB_Guncoon
+[2023.09.26-12.11.11:671][810]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/Characters/Enemies/GunCoon/BT_GunCoon.BT_GunCoon
+[2023.09.26-12.11.16:160][257]LogContentBrowser: Attempting asset rename: BP_GunCoon -> BP_Guncoon
+[2023.09.26-12.11.16:175][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.RenameTmp_C' ref from Metadata '/Game/Characters/Enemies/GunCoon/BP_GunCoon.PackageMetaData'
+[2023.09.26-12.11.16:176][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.RenameTmp:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/BP_GunCoon.PackageMetaData'
+[2023.09.26-12.11.16:176][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.SKEL_RenameTmp_C' ref from Metadata '/Game/Characters/Enemies/GunCoon/BP_GunCoon.PackageMetaData'
+[2023.09.26-12.11.16:176][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.SKEL_RenameTmp_C:UserConstructionScript' ref from Metadata '/Game/Characters/Enemies/GunCoon/BP_GunCoon.PackageMetaData'
+[2023.09.26-12.11.16:176][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.SKEL_RenameTmp_C:InitializeGuncoon' ref from Metadata '/Game/Characters/Enemies/GunCoon/BP_GunCoon.PackageMetaData'
+[2023.09.26-12.11.16:176][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.SKEL_RenameTmp_C:ReceiveBeginPlay' ref from Metadata '/Game/Characters/Enemies/GunCoon/BP_GunCoon.PackageMetaData'
+[2023.09.26-12.11.16:176][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.SKEL_RenameTmp_C:ReceiveAnyDamage' ref from Metadata '/Game/Characters/Enemies/GunCoon/BP_GunCoon.PackageMetaData'
+[2023.09.26-12.11.16:176][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.SKEL_RenameTmp_C:ReachedPlatformNavLinkProxy' ref from Metadata '/Game/Characters/Enemies/GunCoon/BP_GunCoon.PackageMetaData'
+[2023.09.26-12.11.16:176][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.SKEL_RenameTmp_C:Shoot' ref from Metadata '/Game/Characters/Enemies/GunCoon/BP_GunCoon.PackageMetaData'
+[2023.09.26-12.11.16:176][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.RenameTmp_C:ReachedPlatformNavLinkProxy' ref from Metadata '/Game/Characters/Enemies/GunCoon/BP_GunCoon.PackageMetaData'
+[2023.09.26-12.11.16:176][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.RenameTmp_C:ReceiveAnyDamage' ref from Metadata '/Game/Characters/Enemies/GunCoon/BP_GunCoon.PackageMetaData'
+[2023.09.26-12.11.16:176][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.RenameTmp:Which Team.K2Node_FunctionResult_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/BP_GunCoon.PackageMetaData'
+[2023.09.26-12.11.16:176][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.RenameTmp:Which Team.K2Node_FunctionEntry_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/BP_GunCoon.PackageMetaData'
+[2023.09.26-12.11.16:198][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.09.26-12.11.16:216][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.09.26-12.11.16:234][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.09.26-12.11.16:236][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/BP_Guncoon.BP_Guncoon_C' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.16:236][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/BP_Guncoon.BP_Guncoon_C:ReachedPlatformNavLinkProxy' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.16:236][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/BP_Guncoon.BP_Guncoon_C:ReceiveAnyDamage' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.16:236][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/BP_Guncoon.SKEL_BP_Guncoon_C' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.16:236][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/BP_Guncoon.SKEL_BP_Guncoon_C:Shoot' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.16:236][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/BP_Guncoon.SKEL_BP_Guncoon_C:ReachedPlatformNavLinkProxy' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.16:236][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/BP_Guncoon.SKEL_BP_Guncoon_C:ReceiveAnyDamage' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.16:236][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/BP_Guncoon.SKEL_BP_Guncoon_C:ReceiveBeginPlay' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.16:236][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/BP_Guncoon.SKEL_BP_Guncoon_C:InitializeGuncoon' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.16:236][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/BP_Guncoon.SKEL_BP_Guncoon_C:UserConstructionScript' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.16:236][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/BP_Guncoon.BP_Guncoon:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.16:236][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/BP_Guncoon.BP_Guncoon:Which Team.K2Node_FunctionEntry_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.16:236][257]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/BP_Guncoon.BP_Guncoon:Which Team.K2Node_FunctionResult_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.16:237][257]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.26-12.11.16:296][257]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/GunCoon/BP_Guncoon
+[2023.09.26-12.11.16:296][257]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BP_Guncoon2B4CA88AE13B4100A94E63E8B8BF6358.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/BP_Guncoon.uasset'
+[2023.09.26-12.11.16:299][257]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Characters/Enemies/GunCoon/BP_Guncoon.
+[2023.09.26-12.11.16:345][257]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 11.7 sec)
+[2023.09.26-12.11.16:372][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.09.26-12.11.16:390][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.09.26-12.11.16:408][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.09.26-12.11.16:415][257]AssetCheck: New page: Asset Save: BP_Guncoon
+[2023.09.26-12.11.16:415][257]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Enemies/GunCoon/BP_Guncoon.BP_Guncoon
+[2023.09.26-12.11.21:033][728]LogContentBrowser: Attempting asset rename: BT_GunCoon -> BT_Guncoon
+[2023.09.26-12.11.21:047][728]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/RenameTmp.RenameTmp:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/BT_GunCoon.PackageMetaData'
+[2023.09.26-12.11.21:070][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.09.26-12.11.21:088][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.09.26-12.11.21:105][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.09.26-12.11.21:107][728]LogMetaData: Removing '/Game/Characters/Enemies/GunCoon/BT_Guncoon.BT_Guncoon:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/Characters/Enemies/GunCoon/RenameTmp.PackageMetaData'
+[2023.09.26-12.11.21:108][728]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.26-12.11.21:167][728]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/GunCoon/AIC_Guncoon
+[2023.09.26-12.11.21:167][728]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/AIC_Guncoon14CF71FADE1B4A87BD820C66916D24FE.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/AIC_Guncoon.uasset'
+[2023.09.26-12.11.21:171][728]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/GunCoon/BT_Guncoon
+[2023.09.26-12.11.21:171][728]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BT_GuncoonBAF129594CB6437E9213BF0668061A59.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/BT_Guncoon.uasset'
+[2023.09.26-12.11.21:217][728]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 11.8 sec)
+[2023.09.26-12.11.21:242][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.09.26-12.11.21:259][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.09.26-12.11.21:278][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.09.26-12.11.21:285][728]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.26-12.11.21:285][728]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Enemies/GunCoon/AIC_Guncoon.AIC_Guncoon
+[2023.09.26-12.11.21:285][728]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/Characters/Enemies/GunCoon/BT_Guncoon.BT_Guncoon
+[2023.09.26-12.11.33:169][135]LogDerivedDataCache: ../../../Engine/DerivedDataCache: Maintenance finished in +00:00:12.043 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 6743 files in 8058 folders with total size 535 MiB.
+[2023.09.26-12.11.47:353][760]BlueprintLog: New page: Compile BP_Guncoon
+[2023.09.26-12.11.47:427][760]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.09.26-12.11.57:792][923]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.26-12.11.57:842][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Des/BP_Des" FILE="../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/BP_Des.uasset" SILENT=true
+[2023.09.26-12.11.57:857][923]LogSavePackage: Moving output files for package: /Game/Characters/Des/BP_Des
+[2023.09.26-12.11.57:857][923]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BP_DesA9168402E17F4F6F8661292DF9FAE67A.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/BP_Des.uasset'
+[2023.09.26-12.11.57:899][923]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 11.9 sec)
+[2023.09.26-12.11.57:904][923]AssetCheck: New page: Asset Save: BP_Des
+[2023.09.26-12.11.57:904][923]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Des/BP_Des.BP_Des
+[2023.09.26-12.13.02:560][201]BlueprintLog: New page: Compile BP_Guncoon
+[2023.09.26-12.13.02:597][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.09.26-12.13.03:023][234]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.26-12.13.03:084][234]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/GunCoon/BP_Guncoon
+[2023.09.26-12.13.03:084][234]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BP_Guncoon8D5AA8BC9CD341EA8B760AF0701AD2C0.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/BP_Guncoon.uasset'
+[2023.09.26-12.13.03:130][234]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 12.0 sec)
+[2023.09.26-12.13.03:136][234]AssetCheck: New page: Asset Save: BP_Guncoon
+[2023.09.26-12.13.03:136][234]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Enemies/GunCoon/BP_Guncoon.BP_Guncoon
+[2023.09.26-12.13.23:566][612]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.26-12.13.23:617][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Des/BP_Des" FILE="../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/BP_Des.uasset" SILENT=true
+[2023.09.26-12.13.23:633][612]LogSavePackage: Moving output files for package: /Game/Characters/Des/BP_Des
+[2023.09.26-12.13.23:633][612]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BP_Des5E337BB753E74DF3B6E6776EE51A3770.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/BP_Des.uasset'
+[2023.09.26-12.13.23:672][612]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 12.1 sec)
+[2023.09.26-12.13.23:677][612]AssetCheck: New page: Asset Save: BP_Des
+[2023.09.26-12.13.23:677][612]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Des/BP_Des.BP_Des
+[2023.09.26-12.13.55:584][333]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.26-12.13.55:635][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Des/BP_Des" FILE="../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/BP_Des.uasset" SILENT=true
+[2023.09.26-12.13.55:650][333]LogSavePackage: Moving output files for package: /Game/Characters/Des/BP_Des
+[2023.09.26-12.13.55:650][333]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BP_Des933E0652F64A4442A0497170B5A3AA1D.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/BP_Des.uasset'
+[2023.09.26-12.13.55:692][333]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 12.2 sec)
+[2023.09.26-12.13.55:697][333]AssetCheck: New page: Asset Save: BP_Des
+[2023.09.26-12.13.55:697][333]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Des/BP_Des.BP_Des
+[2023.09.26-12.14.16:044][ 86]LogSlate: Window 'Fix Self Context Function References' being destroyed
+[2023.09.26-12.14.16:117][ 87]LogAutomationController: Ignoring very large delta of 4.61 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.09.26-12.15.47:992][ 34]LogSlate: Window 'Change Variable Type' being destroyed
+[2023.09.26-12.15.49:897][140]LogSlate: Window 'Find in Blueprints' being destroyed
+[2023.09.26-12.15.49:937][140]LogSlate: Window 'Find in Blueprints' being destroyed
+[2023.09.26-12.16.34:558][617]BlueprintLog: New page: Compile BP_Guncoon
+[2023.09.26-12.16.34:563][617]LogBlueprint: Warning: [AssetLog] /home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/BP_Guncoon.uasset: [Compiler] Could not find a variable named "WBPlayer" in 'BP_Guncoon_C'.
+Make sure 'BP_Guncoon_C' has been compiled for  Get WBPlayer
+[2023.09.26-12.16.34:564][617]LogBlueprint: Error: [AssetLog] /home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/BP_Guncoon.uasset: [Compiler] The property associated with  WBPlayer  could not be found in '/Game/Characters/Enemies/GunCoon/BP_Guncoon.BP_Guncoon_C'
+[2023.09.26-12.16.34:666][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.09.26-12.17.11:916][726]BlueprintLog: New page: Compile BP_Guncoon
+[2023.09.26-12.17.12:031][726]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.09.26-12.17.12:447][764]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.26-12.17.12:512][764]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/GunCoon/BP_Guncoon
+[2023.09.26-12.17.12:512][764]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BP_Guncoon9036792AB1C14CC6AF5AE3669D0D5756.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/BP_Guncoon.uasset'
+[2023.09.26-12.17.12:555][764]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 12.3 sec)
+[2023.09.26-12.17.12:560][764]AssetCheck: New page: Asset Save: BP_Guncoon
+[2023.09.26-12.17.12:560][764]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Enemies/GunCoon/BP_Guncoon.BP_Guncoon
+[2023.09.26-12.17.29:282][707]BlueprintLog: New page: Compile BP_Guncoon
+[2023.09.26-12.17.29:396][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.09.26-12.17.30:217][794]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.26-12.17.30:280][794]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/GunCoon/BP_Guncoon
+[2023.09.26-12.17.30:280][794]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BP_GuncoonCCFB7B134ADF4EB68B0D55D537D65404.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Enemies/GunCoon/BP_Guncoon.uasset'
+[2023.09.26-12.17.30:324][794]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 12.4 sec)
+[2023.09.26-12.17.30:329][794]AssetCheck: New page: Asset Save: BP_Guncoon
+[2023.09.26-12.17.30:329][794]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Enemies/GunCoon/BP_Guncoon.BP_Guncoon
+[2023.09.26-12.17.31:956][963]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.26-12.17.31:961][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.26-12.17.31:961][963]PIE: New page: PIE session: TestMap (Sep 26, 2023, 6:17:31 PM)
+[2023.09.26-12.17.31:991][963]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2023.09.26-12.17.31:994][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003524s)
+[2023.09.26-12.17.31:994][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003551s)
+[2023.09.26-12.17.31:994][963]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.26-12.17.31:994][963]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.26-12.17.31:994][963]LogAIModule: Creating AISystem for world TestMap
+[2023.09.26-12.17.31:995][963]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2023.09.26-12.17.32:011][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.09.26-12.17.32:014][963]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2023.09.26-12.17.32:014][963]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.26-12.17.32:014][963]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.26-12.17.32:014][963]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.26-12.17.32:014][963]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.26-12.17.32:014][963]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.09.26-12.17.32:014][963]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.26-12.17.32:014][963]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.09.26-12.17.32:014][963]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.26-12.17.32:014][963]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.26-12.17.32:014][963]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.26-12.17.32:014][963]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.26-12.17.32:014][963]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2023.09.26-12.17.32:014][963]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2023.09.26-12.17.32:102][963]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2023.09.26-12.17.32:102][963]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2023.09.26-12.17.32:103][963]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.26-12.17.32:103][963]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.26-12.17.32:103][963]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.26-12.17.32:103][963]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=65
+[2023.09.26-12.17.32:103][963]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=65
+[2023.09.26-12.17.32:103][963]LogInit: FAudioDevice initialized with ID 65.
+[2023.09.26-12.17.32:103][963]LogAudio: Display: Audio Device (ID: 65) registered with world 'TestMap'.
+[2023.09.26-12.17.32:103][963]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 65
+[2023.09.26-12.17.32:106][963]LogLoad: Game class is 'GM_Des_C'
+[2023.09.26-12.17.32:107][963]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.09.26-15.17.32
+[2023.09.26-12.17.32:107][963]LogWorld: Bringing up level for play took: 0.001058
+[2023.09.26-12.17.32:107][963]LogOnline: OSS: Created online subsystem instance for: :Context_74
+[2023.09.26-12.17.32:111][963]PIE: Server logged in
+[2023.09.26-12.17.32:112][963]PIE: Play in editor total start time 0.151 seconds.
+[2023.09.26-12.17.32:122][963]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.32:123][963]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.32:123][963]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.32:123][963]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.32:123][963]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.32:124][963]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.32:124][963]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.32:124][963]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.32:125][963]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.32:130][963]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.32:130][963]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.37:378][587]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.37:379][587]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.37:784][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.26-12.17.37:785][631]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2023.09.26-12.17.37:785][631]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.26-12.17.37:785][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.26-12.17.37:787][631]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.26-12.17.37:790][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.26-12.17.37:805][631]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.26-12.17.37:805][631]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 65
+[2023.09.26-12.17.37:849][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.26-12.17.37:851][631]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.09.26-12.17.37:866][631]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.37:867][631]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.37:867][631]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.37:868][631]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.37:868][631]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.37:868][631]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.37:869][631]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.37:869][631]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.37:874][631]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.37:874][631]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.26-12.17.37:876][632]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2023.09.26-12.18.09:242][713]LogAutomationController: Ignoring very large delta of 21.00 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.09.26-12.18.14:133][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.09.26-12.18.14:136][275]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.26-12.18.14:180][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.26-12.18.14:196][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.09.26-12.18.14:208][275]LogSavePackage: Moving output files for package: /Game/Maps/TestMap
+[2023.09.26-12.18.14:208][275]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/TestMapEB85B2377D54420382FC8BA58C44FFFC.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Maps/TestMap.umap'
+[2023.09.26-12.18.14:211][275]LogFileHelpers: Saving map 'TestMap' took 0.031
+[2023.09.26-12.18.14:232][275]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 12.5 sec)
+[2023.09.26-12.18.14:237][275]AssetCheck: New page: Asset Save: TestMap
+[2023.09.26-12.18.14:237][275]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/TestMap.TestMap
+[2023.09.26-12.18.35:848][513]LogAutomationController: Ignoring very large delta of 18.30 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
