@@ -1,0 +1,55 @@
+Generating report for minidump
+
+Application version 5.2.1.0
+ ... built from changelist 0
+
+OS version Linux 6.5.5-arch1-1 (network name: WitchyMaePC)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000042"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-UnrealEd.so!FPackageBuildDependencyTracker::StaticOnObjectHandleRead(TArrayView<UObject const* const, int>) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/Cooker/PackageBuildDependencyTracker.cpp:70]
+libUnrealEditor-CoreUObject.so!UE::CoreUObject::Private::ObjectHandleCallbacks::OnHandleRead(TArrayView<UObject const* const, int>) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/ObjectHandleTracking.cpp:25]
+libUnrealEditor-CoreUObject.so!FObjectProperty::GetObjectPropertyValue(void const*) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyObject.cpp:211]
+libUnrealEditor-CoreUObject.so!FObjectPropertyBase::Identical(void const*, void const*, unsigned int) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyBaseObject.cpp:76]
+libUnrealEditor-CoreUObject.so!UStruct::SerializeVersionedTaggedProperties(FStructuredArchiveSlot, unsigned char*, UStruct*, unsigned char*, UObject const*) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:1554]
+libUnrealEditor-CoreUObject.so!UStruct::SerializeTaggedProperties(FStructuredArchiveSlot, unsigned char*, UStruct*, unsigned char*, UObject const*) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:1282]
+libUnrealEditor-CoreUObject.so!UObject::SerializeScriptProperties(FStructuredArchiveSlot) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1663]
+libUnrealEditor-CoreUObject.so!UObject::Serialize(FStructuredArchiveRecord) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1458]
+libUnrealEditor-CoreUObject.so!UObject::Serialize(FArchive&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1346]
+libUnrealEditor-Engine.so!UActorComponent::Serialize(FArchive&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/Components/ActorComponent.cpp:2453]
+libUnrealEditor-Engine.so!FCPFUOWriter::FCPFUOWriter(UObject*, UObject*, UEngine::FCopyPropertiesForUnrelatedObjectsParams const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/UnrealEngine.cpp:16555]
+libUnrealEditor-Engine.so!UEngine::CopyPropertiesForUnrelatedObjects(UObject*, UObject*, UEngine::FCopyPropertiesForUnrelatedObjectsParams) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Engine/Private/UnrealEngine.cpp:16755]
+libUnrealEditor-UnrealEd.so!ReplaceObjectHelper(UObject*&, UClass*, UObject*&, UClass*, TMap<UObject*, UObject*, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<UObject*, UObject*, false> >&, TMap<UObject*, FName, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<UObject*, FName, false> >&, int, TArray<UObject*, TSizedDefaultAllocator<32> >&, TArray<UObject*, TSizedDefaultAllocator<32> >&, TSet<AActor*, DefaultKeyFuncs<AActor*, false>, FDefaultSetAllocator>&, TFunctionRef<TArray<USceneComponent*, TSizedDefaultAllocator<32> >& (USceneComponent*)>, bool, bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/Kismet2/KismetReinstanceUtilities.cpp:1935]
+libUnrealEditor-UnrealEd.so!FBlueprintCompileReinstancer::ReplaceInstancesOfClass_Inner(TMap<UClass*, UClass*, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<UClass*, UClass*, false> > const&, FReplaceInstancesOfClassParameters const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/Kismet2/KismetReinstanceUtilities.cpp:2312]
+libUnrealEditor-Kismet.so!FBlueprintCompilationManagerImpl::FlushReinstancingQueueImpl(bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/Kismet/Private/BlueprintCompilationManager.cpp:1831]
+libUnrealEditor-Kismet.so!FBlueprintCompilationManagerImpl::CompileSynchronouslyImpl(FBPCompileRequestInternal const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/Kismet/Private/BlueprintCompilationManager.cpp:287]
+libUnrealEditor-Kismet.so!FBlueprintCompilationManager::CompileSynchronously(FBPCompileRequest const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/Kismet/Private/BlueprintCompilationManager.cpp:3368]
+libUnrealEditor-UnrealEd.so!FKismetEditorUtilities::CompileBlueprint(UBlueprint*, EBlueprintCompileOptions, FCompilerResultsLog*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/UnrealEd/Private/Kismet2/Kismet2.cpp:763]
+libUnrealEditor-Kismet.so!FBlueprintEditor::Compile() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Editor/Kismet/Private/BlueprintEditor.cpp:4083]
+libUnrealEditor-Kismet.so!TBaseSPMethodDelegateInstance<false, FBlueprintEditor, (ESPMode)1, void (), FDefaultDelegateUserPolicy>::ExecuteIfSafe() const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:292]
+libUnrealEditor-Slate.so!FUICommandList::ExecuteAction(TSharedRef<FUICommandInfo const, (ESPMode)1>) const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:111]
+libUnrealEditor-Slate.so!SToolBarButtonBlock::OnClicked() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/MultiBox/SToolBarButtonBlock.cpp:383]
+libUnrealEditor-Slate.so!TBaseSPMethodDelegateInstance<false, SToolBarButtonBlock, (ESPMode)1, FReply (), FDefaultDelegateUserPolicy>::Execute() const [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:275]
+libUnrealEditor-Slate.so!SButton::ExecuteOnClick() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Widgets/Input/SButton.cpp:465]
+libUnrealEditor-Slate.so!SButton::OnMouseButtonUp(FGeometry const&, FPointerEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Widgets/Input/SButton.cpp:390]
+libUnrealEditor-Slate.so!FSlateApplication::RoutePointerUpEvent(FWidgetPath const&, FPointerEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5116]
+libUnrealEditor-Slate.so!FSlateApplication::ProcessMouseButtonUpEvent(FPointerEvent const&) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5684]
+libUnrealEditor-Slate.so!FSlateApplication::OnMouseUp(EMouseButtons::Type, UE::Math::TVector2<double>) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5649]
+libUnrealEditor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:414]
+libUnrealEditor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:436]
+UnrealEditor!FEngineLoop::Tick() [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5730]
+UnrealEditor!GuardedMain(char16_t const*) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x27ccf)
+libc.so.6!__libc_start_main(+0x89)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

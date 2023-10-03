@@ -1,0 +1,133 @@
+﻿Log file open, 10/03/23 11:48:33
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogInit: ExecutableName: CrashReportClient
+LogInit: Build: UE5-CL-0
+LogInit: Engine Version: 5.2.1-0+UE5
+LogInit: Compatible Engine Version: 5.2.0-0+UE5
+LogInit: Net CL: 0
+LogInit: OS: Arch Linux (6.5.5-arch1-1), CPU: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, GPU: NVIDIA GeForce RTX 3070 Laptop GPU (NVIDIA UNIX x86_64 Kernel Module  535.113.01  Tue Sep 12 19:41:24 UTC 2023)
+LogInit: Compiled (64-bit): Aug 28 2023 11:41:03
+LogInit: Architecture: x64
+LogInit: Compiled with Clang: 15.0.1 
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: UE5
+LogInit: Command Line:  -Abslog="/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/Logs/DesAdventureSrc_2-CRC.log" "/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/Crashes/crashinfo-DesAdventureSrc-pid-47516-0B01E6F93A384EE08BAB4D7437D55F04/"
+LogInit: Base Directory: /home/spatiumowl/.unreal/UnrealEngine-5.2.1/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2023.10.03-08.48.33:988][  0]LogInit: Unix hardware info:
+[2023.10.03-08.48.33:988][  0]LogInit:  - we are the first instance of this executable
+[2023.10.03-08.48.33:988][  0]LogInit:  - this process' id (pid) is 48220, parent process' id (ppid) is 47516
+[2023.10.03-08.48.33:988][  0]LogInit:  - we are not running under debugger
+[2023.10.03-08.48.33:988][  0]LogInit:  - machine network name is 'WitchyMaePC'
+[2023.10.03-08.48.33:988][  0]LogInit:  - user name is 'spatiumowl' (spatiumowl)
+[2023.10.03-08.48.33:988][  0]LogInit:  - we're logged in locally
+[2023.10.03-08.48.33:988][  0]LogInit:  - we're running with rendering
+[2023.10.03-08.48.33:988][  0]LogInit:  - CPU: GenuineIntel '11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz' (signature: 0x806D1)
+[2023.10.03-08.48.33:988][  0]LogInit:  - Number of physical cores available for the process: 8
+[2023.10.03-08.48.33:988][  0]LogInit:  - Number of logical cores available for the process: 16
+[2023.10.03-08.48.33:988][  0]LogInit:  - GPU Brand Info: NVIDIA GeForce RTX 3070 Laptop GPU (NVIDIA UNIX x86_64 Kernel Module  535.113.01  Tue Sep 12 19:41:24 UTC 2023)
+[2023.10.03-08.48.33:988][  0]LogInit:  - Memory allocator used: Mimalloc
+[2023.10.03-08.48.33:988][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2023.10.03-08.48.33:988][  0]LogInit:  - This is an internal build.
+[2023.10.03-08.48.33:988][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2023.10.03-08.48.33:988][  0]LogInit: Unix-specific commandline switches:
+[2023.10.03-08.48.33:988][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2023.10.03-08.48.33:988][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2023.10.03-08.48.33:988][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2023.10.03-08.48.33:988][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2023.10.03-08.48.33:988][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2023.10.03-08.48.33:988][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2023.10.03-08.48.33:988][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2023.10.03-08.48.33:988][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2023.10.03-08.48.33:988][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2023.10.03-08.48.33:988][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2023.10.03-08.48.33:988][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2023.10.03-08.48.33:988][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2023.10.03-08.48.33:988][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2023.10.03-08.48.33:988][  0]LogInit:  -allowsyscallfilterfile=PATH_TO_FILE - sets up a system call filter allow list. any invalid syscall in this list *will* cause a crash
+[2023.10.03-08.48.33:988][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (15676 MB, 16052376 KB, 16437633024 bytes)
+[2023.10.03-08.48.33:988][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2023.10.03-08.48.33:988][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2023.10.03-08.48.33:988][  0]LogInit:  - PageSize 4096
+[2023.10.03-08.48.33:988][  0]LogInit:  - BinnedPageSize 65536
+[2023.10.03-08.48.33:990][  0]LogUObjectArray: 427 objects as part of root set at end of initial load.
+[2023.10.03-08.48.33:990][  0]LogUObjectAllocator: 89664 out of 0 bytes used by permanent object pool.
+[2023.10.03-08.48.33:990][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.10.03-08.48.33:991][  0]LogInit: Using OS detected language (en-US).
+[2023.10.03-08.48.33:991][  0]LogInit: Using OS detected locale (en-US).
+[2023.10.03-08.48.33:991][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2023.10.03-08.48.34:025][  0]LogInit: Using OS detected language (en-US).
+[2023.10.03-08.48.34:025][  0]LogInit: Using OS detected locale (en-US).
+[2023.10.03-08.48.34:025][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2023.10.03-08.48.34:025][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2023.10.03-08.48.34:025][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000038 seconds
+[2023.10.03-08.48.34:025][  0]CrashReportCoreLog: CrashReportClientVersion=1.0
+[2023.10.03-08.48.34:025][  0]CrashReportCoreLog: CrashReportReceiver disabled
+[2023.10.03-08.48.34:025][  0]CrashReportCoreLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
+[2023.10.03-08.48.34:026][  0]LogInit: Initializing SDL.
+[2023.10.03-08.48.34:080][  0]LogInit: Initialized SDL 2.24.0 revision:  (compiled against 2.24.0)
+[2023.10.03-08.48.34:080][  0]LogInit: Using SDL video driver 'x11'
+[2023.10.03-08.48.34:092][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2023.10.03-08.48.34:092][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.10.03-08.48.34:092][  0]LogSlate: Using FreeType 2.10.0
+[2023.10.03-08.48.34:093][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.10.03-08.48.34:093][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2023.10.03-08.48.34:134][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2023.10.03-08.48.34:169][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2023.10.03-08.48.34:169][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2023.10.03-08.48.34:174][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2023.10.03-08.48.34:177][  0]LogSlate: Took 0.000050 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.10.03-08.48.34:178][  0]LogSlate: Took 0.000044 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.10.03-08.48.34:179][  0]LogSlate: Took 0.000041 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.10.03-08.48.46:004][  0]CrashReportCoreLog: Got 4 pending files to upload from 'crashinfo-DesAdventureSrc-pid-47516-0B01E6F93A384EE08BAB4D7437D55F04'
+[2023.10.03-08.48.46:004][  0]CrashReportCoreLog: State change from Ready to SendingFiles
+[2023.10.03-08.48.46:004][  0]CrashReportCoreLog: CompressAndSendData have 4 pending files
+[2023.10.03-08.48.46:004][  0]CrashReportCoreLog: CompressAndSendData compressing 8380 bytes ('/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/Crashes/crashinfo-DesAdventureSrc-pid-47516-0B01E6F93A384EE08BAB4D7437D55F04/Diagnostics.txt')
+[2023.10.03-08.48.46:004][  0]CrashReportCoreLog: CompressAndSendData compressing 38334 bytes ('/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/Crashes/crashinfo-DesAdventureSrc-pid-47516-0B01E6F93A384EE08BAB4D7437D55F04/CrashContext.runtime-xml')
+[2023.10.03-08.48.46:004][  0]CrashReportCoreLog: CompressAndSendData compressing 166151 bytes ('/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/Crashes/crashinfo-DesAdventureSrc-pid-47516-0B01E6F93A384EE08BAB4D7437D55F04/DesAdventureSrc_2.log')
+[2023.10.03-08.48.46:004][  0]CrashReportCoreLog: CompressAndSendData compressing 133 bytes ('/home/spatiumowl/Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/Crashes/crashinfo-DesAdventureSrc-pid-47516-0B01E6F93A384EE08BAB4D7437D55F04/CrashReportClient.ini')
+[2023.10.03-08.48.46:018][  0]LogInit: Using libcurl 7.83.1
+[2023.10.03-08.48.46:018][  0]LogInit:  - built for Linux
+[2023.10.03-08.48.46:018][  0]LogInit:  - supports SSL with OpenSSL/1.1.1n
+[2023.10.03-08.48.46:018][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.12
+[2023.10.03-08.48.46:018][  0]LogInit:  - other features:
+[2023.10.03-08.48.46:018][  0]LogInit:      CURL_VERSION_SSL
+[2023.10.03-08.48.46:018][  0]LogInit:      CURL_VERSION_LIBZ
+[2023.10.03-08.48.46:018][  0]LogInit:      CURL_VERSION_IPV6
+[2023.10.03-08.48.46:018][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2023.10.03-08.48.46:018][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2023.10.03-08.48.46:018][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2023.10.03-08.48.46:018][  0]LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+[2023.10.03-08.48.46:018][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2023.10.03-08.48.46:018][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2023.10.03-08.48.46:018][  0]LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+[2023.10.03-08.48.46:018][  0]LogInit:  - LocalHostAddr = Default
+[2023.10.03-08.48.46:018][  0]LogInit:  - BufferSize = 65536
+[2023.10.03-08.48.46:019][  0]CrashReportCoreLog: Sending HTTP request: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=CrashReporter&AppVersion=5.2.1-0%2BUE5&AppEnvironment=Release&UploadType=crashreports&UserID=0639d78b8bf748f1adb3fa47d70778d2-000003e8%7C%7C0639d78b8bf748f1adb3fa47d70778d2
+[2023.10.03-08.48.46:739][  0]CrashReportCoreLog: OnProcessRequestComplete(), State=SendingFiles bSucceeded=1
+[2023.10.03-08.48.46:739][  0]CrashReportCoreLog: State change from SendingFiles to SendingFiles
+[2023.10.03-08.48.46:739][  0]CrashReportCoreLog: All uploads done
+[2023.10.03-08.48.46:739][  0]CrashReportCoreLog: State change from SendingFiles to Finished
+[2023.10.03-08.48.47:039][  0]LogSlate: Request Window 'DesAdventureSrc Crash Reporter' being destroyed
+[2023.10.03-08.48.47:039][  0]LogSlate: Window 'DesAdventureSrc Crash Reporter' being destroyed
+[2023.10.03-08.48.47:040][  0]LogCore: Engine exit requested (reason: OnRequestExit)
+[2023.10.03-08.48.47:041][  0]CrashReportCoreLog: Final state (Receiver) = Finished
+[2023.10.03-08.48.47:041][  0]CrashReportCoreLog: Final state (Receiver) = Unknown UploadState value
+[2023.10.03-08.48.47:043][  0]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.10.03-08.48.47:043][  0]LogCore: Engine exit requested (reason: CrashReportClientApp RequestExit; note: exit was already requested)
+[2023.10.03-08.48.47:043][  0]LogExit: Preparing to exit.
+[2023.10.03-08.48.47:043][  0]LogExit: Object subsystem successfully closed.
+[2023.10.03-08.48.47:044][  0]LogModuleManager: Shutting down and abandoning module HTTP (14)
+[2023.10.03-08.48.47:065][  0]LogModuleManager: Shutting down and abandoning module SSL (13)
+[2023.10.03-08.48.47:065][  0]LogModuleManager: Shutting down and abandoning module ImageWrapper (10)
+[2023.10.03-08.48.47:065][  0]LogModuleManager: Shutting down and abandoning module InputCore (8)
+[2023.10.03-08.48.47:065][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (6)
+[2023.10.03-08.48.47:065][  0]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2023.10.03-08.48.47:065][  0]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2023.10.03-08.48.47:067][  0]LogExit: Exiting.
+[2023.10.03-08.48.47:067][  0]LogInit: Tearing down SDL.
+[2023.10.03-08.48.47:077][  0]Log file closed, 10/03/23 11:48:47
