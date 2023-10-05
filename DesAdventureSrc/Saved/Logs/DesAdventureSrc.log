@@ -2358,3 +2358,1215 @@ Script call stack:
 [2023.10.05-07.21.25:748][584]AssetCheck: New page: Asset Save: BP_Des
 [2023.10.05-07.21.25:748][584]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Des/BP_Des.BP_Des
 [2023.10.05-07.21.31:657][943]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.10.05-07.22.24:449][306]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.10.05-07.22.33:322][769]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-07.22.33:398][769]LogSavePackage: Moving output files for package: /Game/Characters/Des/Actions/BPC_Dash
+[2023.10.05-07.22.33:399][769]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BPC_DashE692C3C0F72A4D379641E642F96AE61B.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/Actions/BPC_Dash.uasset'
+[2023.10.05-07.22.33:450][769]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 3.26 sec)
+[2023.10.05-07.22.33:457][769]AssetCheck: New page: Asset Save: BPC_Dash
+[2023.10.05-07.22.33:457][769]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Des/Actions/BPC_Dash.BPC_Dash
+[2023.10.05-07.24.20:402][169]BlueprintLog: New page: Compile BPC_Dash
+[2023.10.05-07.24.20:446][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.10.05-07.24.20:843][191]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-07.24.20:921][191]LogSavePackage: Moving output files for package: /Game/Characters/Des/Actions/BPC_Dash
+[2023.10.05-07.24.20:921][191]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BPC_DashF708FB13F42C4C5A8596ABED76F3A141.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/Actions/BPC_Dash.uasset'
+[2023.10.05-07.24.20:971][191]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 3.38 sec)
+[2023.10.05-07.24.20:976][191]AssetCheck: New page: Asset Save: BPC_Dash
+[2023.10.05-07.24.20:976][191]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Des/Actions/BPC_Dash.BPC_Dash
+[2023.10.05-07.25.19:122][638]LogEditorTransaction: Undo Move Node
+[2023.10.05-07.25.30:682][322]LogEditorTransaction: Undo Paste clipboard contents
+[2023.10.05-07.26.55:392][360]BlueprintLog: New page: Compile BPC_Dash
+[2023.10.05-07.26.55:427][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.10.05-07.26.55:861][384]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-07.26.55:937][384]LogSavePackage: Moving output files for package: /Game/Characters/Des/Actions/BPC_Dash
+[2023.10.05-07.26.55:937][384]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BPC_Dash3B0FF6AC4E1E4094B679F0F105D0BF74.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/Actions/BPC_Dash.uasset'
+[2023.10.05-07.26.55:985][384]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 3.51 sec)
+[2023.10.05-07.26.55:990][384]AssetCheck: New page: Asset Save: BPC_Dash
+[2023.10.05-07.26.55:990][384]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Des/Actions/BPC_Dash.BPC_Dash
+[2023.10.05-07.29.05:379][  2]BlueprintLog: New page: Compile BPC_Dash
+[2023.10.05-07.29.05:413][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.10.05-07.29.05:757][ 19]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-07.29.05:835][ 19]LogSavePackage: Moving output files for package: /Game/Characters/Des/Actions/BPC_Dash
+[2023.10.05-07.29.05:835][ 19]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BPC_DashC204FA078C144D3C9A10EC6B13C10CC4.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/Actions/BPC_Dash.uasset'
+[2023.10.05-07.29.05:882][ 19]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 3.63 sec)
+[2023.10.05-07.29.05:887][ 19]AssetCheck: New page: Asset Save: BPC_Dash
+[2023.10.05-07.29.05:887][ 19]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Des/Actions/BPC_Dash.BPC_Dash
+[2023.10.05-07.29.09:605][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.09:605][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.09:605][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.09:606][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.09:606][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.09:606][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.09:607][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.09:607][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.09:607][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.09:607][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.10:519][290]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.05-07.29.10:523][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.05-07.29.10:523][290]PIE: New page: PIE session: TestMap (Oct 5, 2023, 1:29:10 PM)
+[2023.10.05-07.29.10:523][290]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2023.10.05-07.29.10:527][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003590s)
+[2023.10.05-07.29.10:527][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003614s)
+[2023.10.05-07.29.10:527][290]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.05-07.29.10:527][290]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-07.29.10:527][290]LogAIModule: Creating AISystem for world TestMap
+[2023.10.05-07.29.10:527][290]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2023.10.05-07.29.10:544][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.10.05-07.29.10:547][290]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.10.05-07.29.10:547][290]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.05-07.29.10:547][290]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.05-07.29.10:547][290]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.05-07.29.10:547][290]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.05-07.29.10:547][290]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.05-07.29.10:547][290]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.05-07.29.10:547][290]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.05-07.29.10:547][290]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.05-07.29.10:547][290]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.05-07.29.10:547][290]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.05-07.29.10:547][290]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.05-07.29.10:547][290]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2023.10.05-07.29.10:547][290]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2023.10.05-07.29.10:634][290]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2023.10.05-07.29.10:635][290]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2023.10.05-07.29.10:636][290]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.05-07.29.10:636][290]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.05-07.29.10:636][290]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.05-07.29.10:636][290]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=9
+[2023.10.05-07.29.10:636][290]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.10.05-07.29.10:636][290]LogInit: FAudioDevice initialized with ID 9.
+[2023.10.05-07.29.10:636][290]LogAudio: Display: Audio Device (ID: 9) registered with world 'TestMap'.
+[2023.10.05-07.29.10:636][290]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2023.10.05-07.29.10:638][290]LogLoad: Game class is 'GM_Des_C'
+[2023.10.05-07.29.10:639][290]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.10.05-10.29.10
+[2023.10.05-07.29.10:639][290]LogWorld: Bringing up level for play took: 0.000988
+[2023.10.05-07.29.10:640][290]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.10.05-07.29.10:642][290]PIE: Server logged in
+[2023.10.05-07.29.10:643][290]PIE: Play in editor total start time 0.12 seconds.
+[2023.10.05-07.29.10:652][290]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.10:653][290]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.10:653][290]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.10:653][290]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.10:654][290]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.10:654][290]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.10:654][290]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.10:654][290]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.10:654][290]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.10:655][290]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.13:949][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-07.29.13:949][489]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2023.10.05-07.29.13:949][489]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-07.29.13:949][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-07.29.13:953][489]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.05-07.29.13:956][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-07.29.13:972][489]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.05-07.29.13:972][489]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2023.10.05-07.29.14:016][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-07.29.14:018][489]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.10.05-07.29.14:031][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.14:031][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.14:032][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.14:032][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.14:032][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.14:033][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.14:033][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.14:033][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.14:033][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.14:033][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.14:035][490]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.10.05-07.29.38:544][948]BlueprintLog: New page: Compile BPC_Dash
+[2023.10.05-07.29.38:577][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.10.05-07.29.38:949][968]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-07.29.39:019][968]LogSavePackage: Moving output files for package: /Game/Characters/Des/Actions/BPC_Dash
+[2023.10.05-07.29.39:019][968]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BPC_Dash0E50068914E04AE7BF8364A0F4BC2D86.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/Actions/BPC_Dash.uasset'
+[2023.10.05-07.29.39:069][968]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 3.75 sec)
+[2023.10.05-07.29.39:074][968]AssetCheck: New page: Asset Save: BPC_Dash
+[2023.10.05-07.29.39:074][968]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Des/Actions/BPC_Dash.BPC_Dash
+[2023.10.05-07.29.45:580][362]LogEditorTransaction: Undo Move Node
+[2023.10.05-07.29.46:666][416]BlueprintLog: New page: Compile BPC_Dash
+[2023.10.05-07.29.46:699][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.10.05-07.29.47:052][436]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-07.29.47:118][436]LogSavePackage: Moving output files for package: /Game/Characters/Des/Actions/BPC_Dash
+[2023.10.05-07.29.47:118][436]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BPC_Dash383FFC515D70481F9EEAFCA298E0CD73.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/Actions/BPC_Dash.uasset'
+[2023.10.05-07.29.47:165][436]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 3.86 sec)
+[2023.10.05-07.29.47:170][436]AssetCheck: New page: Asset Save: BPC_Dash
+[2023.10.05-07.29.47:170][436]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Des/Actions/BPC_Dash.BPC_Dash
+[2023.10.05-07.29.47:480][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.47:480][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.47:480][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.47:481][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.47:481][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.47:481][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.47:481][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.47:482][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.47:482][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.47:482][457]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.48:234][499]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.05-07.29.48:239][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.05-07.29.48:239][499]PIE: New page: PIE session: TestMap (Oct 5, 2023, 1:29:48 PM)
+[2023.10.05-07.29.48:239][499]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2023.10.05-07.29.48:243][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003994s)
+[2023.10.05-07.29.48:243][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.004025s)
+[2023.10.05-07.29.48:243][499]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.05-07.29.48:243][499]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-07.29.48:244][499]LogAIModule: Creating AISystem for world TestMap
+[2023.10.05-07.29.48:244][499]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2023.10.05-07.29.48:259][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.10.05-07.29.48:262][499]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.10.05-07.29.48:262][499]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.05-07.29.48:262][499]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.05-07.29.48:262][499]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.05-07.29.48:262][499]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.05-07.29.48:262][499]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.05-07.29.48:262][499]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.05-07.29.48:262][499]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.05-07.29.48:262][499]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.05-07.29.48:262][499]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.05-07.29.48:262][499]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.05-07.29.48:262][499]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.05-07.29.48:262][499]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2023.10.05-07.29.48:263][499]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2023.10.05-07.29.48:349][499]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2023.10.05-07.29.48:350][499]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2023.10.05-07.29.48:350][499]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.05-07.29.48:350][499]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.05-07.29.48:350][499]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.05-07.29.48:351][499]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=10
+[2023.10.05-07.29.48:351][499]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.10.05-07.29.48:351][499]LogInit: FAudioDevice initialized with ID 10.
+[2023.10.05-07.29.48:351][499]LogAudio: Display: Audio Device (ID: 10) registered with world 'TestMap'.
+[2023.10.05-07.29.48:352][499]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2023.10.05-07.29.48:353][499]LogLoad: Game class is 'GM_Des_C'
+[2023.10.05-07.29.48:354][499]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.10.05-10.29.48
+[2023.10.05-07.29.48:354][499]LogWorld: Bringing up level for play took: 0.000940
+[2023.10.05-07.29.48:355][499]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.10.05-07.29.48:358][499]PIE: Server logged in
+[2023.10.05-07.29.48:358][499]PIE: Play in editor total start time 0.119 seconds.
+[2023.10.05-07.29.48:368][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.48:368][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.48:368][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.48:369][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.48:369][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.48:369][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.48:369][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.48:370][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.48:370][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.48:370][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.55:224][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-07.29.55:224][911]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2023.10.05-07.29.55:224][911]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-07.29.55:224][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-07.29.55:228][911]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.05-07.29.55:231][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-07.29.55:247][911]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.05-07.29.55:247][911]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2023.10.05-07.29.55:293][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-07.29.55:294][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.10.05-07.29.55:308][911]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.55:308][911]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.55:308][911]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.55:309][911]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.55:309][911]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.55:309][911]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.55:310][911]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.55:310][911]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.55:310][911]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.55:310][911]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.29.55:312][912]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.10.05-07.31.42:399][306]BlueprintLog: New page: Compile BPC_Dash
+[2023.10.05-07.31.42:447][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.10.05-07.31.42:906][331]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-07.31.42:987][331]LogSavePackage: Moving output files for package: /Game/Characters/Des/Actions/BPC_Dash
+[2023.10.05-07.31.42:987][331]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BPC_Dash061EFA8CC9194076B1B136D447DD83C9.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/Actions/BPC_Dash.uasset'
+[2023.10.05-07.31.43:035][331]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 3.99 sec)
+[2023.10.05-07.31.43:041][331]AssetCheck: New page: Asset Save: BPC_Dash
+[2023.10.05-07.31.43:041][331]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Des/Actions/BPC_Dash.BPC_Dash
+[2023.10.05-07.31.43:851][377]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.05-07.31.43:856][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.05-07.31.43:856][377]PIE: New page: PIE session: TestMap (Oct 5, 2023, 1:31:43 PM)
+[2023.10.05-07.31.43:877][377]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2023.10.05-07.31.43:881][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003679s)
+[2023.10.05-07.31.43:881][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003703s)
+[2023.10.05-07.31.43:881][377]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.05-07.31.43:881][377]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-07.31.43:882][377]LogAIModule: Creating AISystem for world TestMap
+[2023.10.05-07.31.43:882][377]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2023.10.05-07.31.43:896][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.10.05-07.31.43:898][377]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.10.05-07.31.43:898][377]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.05-07.31.43:898][377]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.05-07.31.43:898][377]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.05-07.31.43:898][377]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.05-07.31.43:898][377]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.05-07.31.43:898][377]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.05-07.31.43:898][377]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.05-07.31.43:898][377]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.05-07.31.43:899][377]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.05-07.31.43:899][377]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.05-07.31.43:899][377]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.05-07.31.43:899][377]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2023.10.05-07.31.43:899][377]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2023.10.05-07.31.43:985][377]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2023.10.05-07.31.43:986][377]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2023.10.05-07.31.43:986][377]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.05-07.31.43:986][377]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.05-07.31.43:986][377]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.05-07.31.43:987][377]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=11
+[2023.10.05-07.31.43:987][377]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.10.05-07.31.43:987][377]LogInit: FAudioDevice initialized with ID 11.
+[2023.10.05-07.31.43:987][377]LogAudio: Display: Audio Device (ID: 11) registered with world 'TestMap'.
+[2023.10.05-07.31.43:987][377]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2023.10.05-07.31.43:989][377]LogLoad: Game class is 'GM_Des_C'
+[2023.10.05-07.31.43:990][377]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.10.05-10.31.43
+[2023.10.05-07.31.43:990][377]LogWorld: Bringing up level for play took: 0.001004
+[2023.10.05-07.31.43:990][377]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.10.05-07.31.43:993][377]PIE: Server logged in
+[2023.10.05-07.31.43:994][377]PIE: Play in editor total start time 0.138 seconds.
+[2023.10.05-07.31.43:994][377]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:003][377]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.44:003][377]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.44:004][377]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.44:004][377]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.44:004][377]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.44:005][377]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.44:005][377]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.44:005][377]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.44:005][377]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.44:005][377]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.44:013][378]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:020][379]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:034][380]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:042][381]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:051][382]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:059][383]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:072][384]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:089][385]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:106][386]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:122][387]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:139][388]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:156][389]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:172][390]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:189][391]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:206][392]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:222][393]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:239][394]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:255][395]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:272][396]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:289][397]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:305][398]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:322][399]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:339][400]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:355][401]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:372][402]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:389][403]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:405][404]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:422][405]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:439][406]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:455][407]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:472][408]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:489][409]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:506][410]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:522][411]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:539][412]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:556][413]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:572][414]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:589][415]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:606][416]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:623][417]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:639][418]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:655][419]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:672][420]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:689][421]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:705][422]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:722][423]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:738][424]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:755][425]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:772][426]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:789][427]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:805][428]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:822][429]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:838][430]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:855][431]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:872][432]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:889][433]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:905][434]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:922][435]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:939][436]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:955][437]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:972][438]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.44:989][439]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:006][440]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:022][441]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:039][442]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:055][443]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:072][444]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:089][445]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:105][446]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:122][447]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:139][448]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:156][449]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:172][450]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:189][451]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:205][452]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:222][453]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:239][454]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:255][455]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:272][456]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:289][457]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:305][458]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:322][459]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:339][460]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:355][461]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:372][462]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:389][463]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:405][464]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:422][465]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:439][466]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:455][467]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:472][468]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.45:489][469]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:506][470]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:522][471]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:539][472]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:556][473]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:572][474]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:589][475]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:606][476]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:622][477]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:639][478]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:656][479]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:672][480]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:689][481]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:705][482]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:722][483]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:739][484]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:756][485]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:772][486]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:789][487]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:806][488]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:822][489]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:839][490]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:855][491]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:872][492]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:889][493]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:905][494]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:922][495]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:939][496]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:955][497]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:972][498]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.45:989][499]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:006][500]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:022][501]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:039][502]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:055][503]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:072][504]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:088][505]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:105][506]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:122][507]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:139][508]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:155][509]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:172][510]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:189][511]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:205][512]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:222][513]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:239][514]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:255][515]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:272][516]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:289][517]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:305][518]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:322][519]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:339][520]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:355][521]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:372][522]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:388][523]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:405][524]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:422][525]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:438][526]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:455][527]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:472][528]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:488][529]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:505][530]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:522][531]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:538][532]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:555][533]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:572][534]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:588][535]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:605][536]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:622][537]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:639][538]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:655][539]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:672][540]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:689][541]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:705][542]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:722][543]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:739][544]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:755][545]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:772][546]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:788][547]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:805][548]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:822][549]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:839][550]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:855][551]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:872][552]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:888][553]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:905][554]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:922][555]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:939][556]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:955][557]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:972][558]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.46:989][559]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:005][560]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:022][561]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:039][562]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:055][563]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:072][564]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:089][565]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:105][566]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:122][567]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:139][568]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:155][569]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:172][570]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:189][571]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:205][572]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:222][573]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:239][574]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:255][575]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:272][576]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:289][577]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:305][578]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:322][579]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:339][580]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:355][581]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:372][582]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:389][583]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:405][584]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:422][585]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:439][586]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:455][587]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:472][588]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:489][589]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:506][590]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:522][591]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:539][592]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:555][593]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:572][594]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:589][595]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:606][596]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:622][597]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:639][598]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:655][599]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:672][600]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:689][601]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:706][602]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:722][603]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:739][604]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:756][605]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:772][606]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:789][607]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:805][608]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:822][609]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:839][610]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:855][611]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:872][612]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:889][613]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:905][614]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:922][615]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:939][616]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:955][617]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:972][618]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.47:989][619]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:006][620]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:022][621]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:039][622]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:055][623]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:072][624]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:089][625]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:105][626]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:122][627]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:139][628]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:156][629]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:172][630]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:189][631]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:205][632]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:222][633]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:239][634]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:255][635]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:272][636]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:289][637]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:305][638]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:322][639]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:339][640]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:355][641]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:372][642]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:388][643]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:405][644]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:422][645]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:439][646]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:456][647]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:472][648]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:489][649]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:506][650]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:522][651]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:539][652]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:555][653]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:572][654]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:589][655]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:606][656]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:622][657]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:639][658]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:656][659]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:673][660]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:689][661]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:706][662]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:722][663]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:739][664]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:755][665]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:772][666]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:789][667]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:805][668]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:822][669]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:839][670]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:856][671]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:872][672]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:889][673]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:906][674]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:922][675]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:939][676]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:956][677]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:972][678]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.48:989][679]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:006][680]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:023][681]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:039][682]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:055][683]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:072][684]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:088][685]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:105][686]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:122][687]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:138][688]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:155][689]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:172][690]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:188][691]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:205][692]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:222][693]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:238][694]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:255][695]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:272][696]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:289][697]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:305][698]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:322][699]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:339][700]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:355][701]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:372][702]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:389][703]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:405][704]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:422][705]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.49:455][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-07.31.49:455][705]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2023.10.05-07.31.49:455][705]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-07.31.49:455][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-07.31.49:458][705]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.05-07.31.49:462][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-07.31.49:476][705]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.05-07.31.49:476][705]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2023.10.05-07.31.49:521][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-07.31.49:523][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.10.05-07.31.49:537][705]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.49:537][705]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.49:537][705]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.49:538][705]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.49:538][705]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.49:538][705]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.49:538][705]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.49:539][705]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.49:539][705]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.49:539][705]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.49:541][706]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.10.05-07.31.50:442][762]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.05-07.31.50:446][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.05-07.31.50:446][762]PIE: New page: PIE session: TestMap (Oct 5, 2023, 1:31:50 PM)
+[2023.10.05-07.31.50:470][762]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2023.10.05-07.31.50:474][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003635s)
+[2023.10.05-07.31.50:474][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003660s)
+[2023.10.05-07.31.50:474][762]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.05-07.31.50:474][762]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-07.31.50:475][762]LogAIModule: Creating AISystem for world TestMap
+[2023.10.05-07.31.50:475][762]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2023.10.05-07.31.50:489][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.10.05-07.31.50:490][762]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.10.05-07.31.50:490][762]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.05-07.31.50:490][762]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.05-07.31.50:490][762]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.05-07.31.50:490][762]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.05-07.31.50:490][762]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.05-07.31.50:490][762]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.05-07.31.50:490][762]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.05-07.31.50:490][762]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.05-07.31.50:490][762]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.05-07.31.50:490][762]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.05-07.31.50:490][762]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.05-07.31.50:490][762]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2023.10.05-07.31.50:490][762]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2023.10.05-07.31.50:577][762]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2023.10.05-07.31.50:577][762]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2023.10.05-07.31.50:577][762]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.05-07.31.50:577][762]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.05-07.31.50:577][762]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.05-07.31.50:578][762]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=12
+[2023.10.05-07.31.50:578][762]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.10.05-07.31.50:579][762]LogInit: FAudioDevice initialized with ID 12.
+[2023.10.05-07.31.50:579][762]LogAudio: Display: Audio Device (ID: 12) registered with world 'TestMap'.
+[2023.10.05-07.31.50:579][762]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2023.10.05-07.31.50:580][762]LogLoad: Game class is 'GM_Des_C'
+[2023.10.05-07.31.50:581][762]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.10.05-10.31.50
+[2023.10.05-07.31.50:581][762]LogWorld: Bringing up level for play took: 0.000956
+[2023.10.05-07.31.50:582][762]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.10.05-07.31.50:584][762]PIE: Server logged in
+[2023.10.05-07.31.50:585][762]PIE: Play in editor total start time 0.139 seconds.
+[2023.10.05-07.31.50:585][762]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:595][762]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.50:595][762]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.50:595][762]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.50:596][762]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.50:596][762]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.50:596][762]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.50:596][762]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.50:596][762]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.50:597][762]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.50:597][762]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.50:600][763]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:608][764]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:616][765]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:625][766]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:633][767]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:641][768]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:657][769]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:674][770]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:691][771]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:707][772]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:724][773]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:741][774]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:757][775]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:774][776]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:791][777]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:807][778]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:824][779]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:840][780]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:857][781]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:873][782]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:890][783]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:907][784]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:924][785]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:940][786]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:957][787]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:974][788]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.50:990][789]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:008][790]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:024][791]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:040][792]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:057][793]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:074][794]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:091][795]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:107][796]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:124][797]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:140][798]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:157][799]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:174][800]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:190][801]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:207][802]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:224][803]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:240][804]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:257][805]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:274][806]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:290][807]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:307][808]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:324][809]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:340][810]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:357][811]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:373][812]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:390][813]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:407][814]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:424][815]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:440][816]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:457][817]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:474][818]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:490][819]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:507][820]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:523][821]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:540][822]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:557][823]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:574][824]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:590][825]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:607][826]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:624][827]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:640][828]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:657][829]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:673][830]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:690][831]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:707][832]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:724][833]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:740][834]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:757][835]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:774][836]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:791][837]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:807][838]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:824][839]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:840][840]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:857][841]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:873][842]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:890][843]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:907][844]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:924][845]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:940][846]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:957][847]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:974][848]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.51:990][849]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:007][850]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:024][851]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:040][852]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:057][853]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:074][854]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:090][855]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:107][856]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:124][857]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:140][858]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:157][859]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:174][860]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:190][861]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:207][862]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:224][863]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:240][864]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:257][865]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:274][866]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:291][867]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:307][868]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:324][869]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:341][870]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:357][871]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:374][872]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:391][873]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:407][874]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:424][875]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:441][876]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:457][877]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:474][878]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:490][879]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:507][880]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:524][881]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:541][882]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:557][883]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:574][884]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:590][885]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:607][886]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:624][887]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:641][888]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:657][889]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:674][890]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:691][891]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:707][892]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:724][893]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:741][894]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:757][895]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:774][896]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:790][897]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:807][898]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:824][899]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:840][900]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:857][901]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:874][902]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:891][903]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:907][904]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:924][905]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:941][906]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:957][907]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:974][908]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.52:990][909]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:007][910]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:023][911]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:040][912]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:057][913]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:073][914]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:090][915]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:107][916]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:124][917]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:140][918]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:157][919]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:174][920]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:190][921]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:207][922]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:224][923]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:241][924]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:257][925]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:274][926]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:291][927]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:307][928]LogBlueprintUserMessages: [BPC_Dash] Dash used: false
+[2023.10.05-07.31.53:324][929]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:341][930]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:357][931]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:374][932]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:391][933]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:407][934]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:424][935]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:441][936]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:457][937]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:474][938]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:490][939]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:507][940]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:524][941]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:540][942]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:557][943]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:574][944]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:590][945]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:607][946]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:624][947]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:641][948]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:657][949]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:674][950]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:691][951]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:708][952]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:724][953]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:741][954]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:757][955]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:775][956]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:790][957]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:807][958]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:824][959]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:840][960]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:857][961]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:874][962]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:891][963]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:907][964]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:924][965]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:940][966]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:957][967]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:974][968]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.53:990][969]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:007][970]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:023][971]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:040][972]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:057][973]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:074][974]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:090][975]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:107][976]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:124][977]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:140][978]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:157][979]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:173][980]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:190][981]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:207][982]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:224][983]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:240][984]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:257][985]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:273][986]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:290][987]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:307][988]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:323][989]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:340][990]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:357][991]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:373][992]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:390][993]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:407][994]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:423][995]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:440][996]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:457][997]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:473][998]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:490][999]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:507][  0]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:524][  1]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:540][  2]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:557][  3]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:573][  4]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:590][  5]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:607][  6]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:623][  7]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:640][  8]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:657][  9]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:674][ 10]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:690][ 11]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:707][ 12]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:723][ 13]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:740][ 14]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:757][ 15]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:774][ 16]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:790][ 17]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:807][ 18]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:824][ 19]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:841][ 20]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:857][ 21]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:874][ 22]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:891][ 23]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:907][ 24]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:924][ 25]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:940][ 26]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:957][ 27]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:974][ 28]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.54:990][ 29]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:007][ 30]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:024][ 31]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:040][ 32]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:057][ 33]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:074][ 34]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:091][ 35]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:107][ 36]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:124][ 37]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:141][ 38]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:157][ 39]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:174][ 40]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:190][ 41]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:207][ 42]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:224][ 43]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:240][ 44]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:257][ 45]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:274][ 46]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:290][ 47]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:307][ 48]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:324][ 49]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:340][ 50]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:357][ 51]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:374][ 52]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:390][ 53]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:407][ 54]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:424][ 55]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:440][ 56]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:457][ 57]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:474][ 58]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:490][ 59]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:507][ 60]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:524][ 61]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:540][ 62]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:557][ 63]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:574][ 64]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:591][ 65]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:607][ 66]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:624][ 67]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:640][ 68]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:657][ 69]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:674][ 70]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:691][ 71]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:707][ 72]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:724][ 73]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:740][ 74]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:758][ 75]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:775][ 76]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:791][ 77]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:807][ 78]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:824][ 79]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:841][ 80]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:857][ 81]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:874][ 82]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:891][ 83]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:907][ 84]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:924][ 85]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:940][ 86]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:957][ 87]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:974][ 88]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.55:991][ 89]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:007][ 90]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:024][ 91]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:040][ 92]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:057][ 93]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:074][ 94]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:091][ 95]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:107][ 96]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:124][ 97]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:140][ 98]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:157][ 99]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:174][100]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:191][101]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:207][102]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:224][103]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:241][104]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:257][105]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:274][106]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:291][107]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:307][108]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:324][109]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:341][110]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:357][111]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:374][112]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:391][113]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:407][114]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:424][115]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:440][116]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:457][117]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:473][118]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:490][119]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:507][120]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:524][121]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:541][122]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:557][123]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:574][124]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:590][125]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:607][126]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:624][127]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:641][128]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:657][129]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:674][130]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:690][131]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:707][132]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:724][133]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:741][134]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:757][135]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:774][136]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:791][137]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:807][138]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:824][139]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:840][140]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:857][141]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:874][142]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:890][143]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:907][144]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:923][145]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:940][146]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:957][147]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:974][148]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.56:990][149]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:007][150]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:023][151]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:040][152]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:057][153]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:074][154]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:090][155]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:107][156]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:124][157]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:141][158]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:157][159]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:174][160]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:191][161]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:207][162]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:224][163]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:240][164]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:257][165]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:274][166]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:290][167]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:307][168]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:324][169]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:340][170]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:357][171]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:374][172]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:390][173]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:407][174]LogBlueprintUserMessages: [BPC_Dash] Dash used: true
+[2023.10.05-07.31.57:451][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-07.31.57:451][174]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2023.10.05-07.31.57:451][174]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-07.31.57:451][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-07.31.57:454][174]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.05-07.31.57:457][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-07.31.57:472][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-07.31.57:472][174]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2023.10.05-07.31.57:517][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.10.05-07.31.57:531][174]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.57:531][174]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.57:532][174]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.57:532][174]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.57:532][174]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.57:532][174]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.57:533][174]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.57:533][174]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.57:533][174]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.57:533][174]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.31.57:535][175]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.10.05-07.33.13:142][704]BlueprintLog: New page: Compile BPC_Dash
+[2023.10.05-07.33.13:175][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.10.05-07.33.14:004][752]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-07.33.14:073][752]LogSavePackage: Moving output files for package: /Game/Characters/Des/Actions/BPC_Dash
+[2023.10.05-07.33.14:073][752]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BPC_DashC179BFAB697A4867A387BA736D7EAA28.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/Actions/BPC_Dash.uasset'
+[2023.10.05-07.33.14:121][752]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 4.11 sec)
+[2023.10.05-07.33.14:126][752]AssetCheck: New page: Asset Save: BPC_Dash
+[2023.10.05-07.33.14:126][752]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Des/Actions/BPC_Dash.BPC_Dash
+[2023.10.05-07.33.15:173][810]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.05-07.33.15:178][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.05-07.33.15:178][810]PIE: New page: PIE session: TestMap (Oct 5, 2023, 1:33:15 PM)
+[2023.10.05-07.33.15:178][810]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2023.10.05-07.33.15:182][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003681s)
+[2023.10.05-07.33.15:182][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003706s)
+[2023.10.05-07.33.15:182][810]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.05-07.33.15:182][810]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-07.33.15:182][810]LogAIModule: Creating AISystem for world TestMap
+[2023.10.05-07.33.15:182][810]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2023.10.05-07.33.15:197][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.10.05-07.33.15:200][810]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.10.05-07.33.15:200][810]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.05-07.33.15:200][810]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.05-07.33.15:200][810]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.05-07.33.15:200][810]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.05-07.33.15:200][810]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.05-07.33.15:200][810]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.05-07.33.15:200][810]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.05-07.33.15:200][810]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.05-07.33.15:201][810]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.05-07.33.15:201][810]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.05-07.33.15:201][810]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.05-07.33.15:201][810]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2023.10.05-07.33.15:201][810]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2023.10.05-07.33.15:287][810]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2023.10.05-07.33.15:288][810]LogAudioMixer: Display: Using Audio Hardware Device Built-in Audio Analog Stereo
+[2023.10.05-07.33.15:288][810]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.05-07.33.15:288][810]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.05-07.33.15:288][810]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.05-07.33.15:289][810]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=13
+[2023.10.05-07.33.15:289][810]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.10.05-07.33.15:289][810]LogInit: FAudioDevice initialized with ID 13.
+[2023.10.05-07.33.15:289][810]LogAudio: Display: Audio Device (ID: 13) registered with world 'TestMap'.
+[2023.10.05-07.33.15:289][810]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2023.10.05-07.33.15:291][810]LogLoad: Game class is 'GM_Des_C'
+[2023.10.05-07.33.15:292][810]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.10.05-10.33.15
+[2023.10.05-07.33.15:292][810]LogWorld: Bringing up level for play took: 0.000990
+[2023.10.05-07.33.15:292][810]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.10.05-07.33.15:295][810]PIE: Server logged in
+[2023.10.05-07.33.15:295][810]PIE: Play in editor total start time 0.118 seconds.
+[2023.10.05-07.33.15:305][810]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.15:305][810]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.15:305][810]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.15:306][810]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.15:306][810]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.15:306][810]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.15:306][810]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.15:307][810]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.15:307][810]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.15:307][810]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.20:459][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-07.33.20:459][120]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2023.10.05-07.33.20:459][120]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-07.33.20:459][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-07.33.20:464][120]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.05-07.33.20:468][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-07.33.20:482][120]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.05-07.33.20:483][120]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2023.10.05-07.33.20:528][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-07.33.20:529][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.10.05-07.33.20:543][120]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.20:543][120]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.20:544][120]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.20:544][120]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.20:544][120]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.20:545][120]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.20:545][120]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.20:545][120]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.20:545][120]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.20:546][120]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.20:547][121]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.10.05-07.33.26:955][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.26:955][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.26:955][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.26:956][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.26:956][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.26:956][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.26:957][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.26:957][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.05-07.33.26:976][279]LogShaderCompilers: Display: ================================================
+[2023.10.05-07.33.26:976][279]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.05-07.33.26:976][279]LogShaderCompilers: Display: Total job queries 56, among them cache hits 0 (0.00%)
+[2023.10.05-07.33.26:976][279]LogShaderCompilers: Display: Tracking 56 distinct input hashes that result in 39 distinct outputs (69.64%)
+[2023.10.05-07.33.26:976][279]LogShaderCompilers: Display: RAM used: 197.84 KiB of 819.20 MiB budget. Usage: 0.02%
+[2023.10.05-07.33.26:976][279]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.05-07.33.26:976][279]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.10.05-07.33.26:976][279]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.10.05-07.33.26:976][279]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.10.05-07.33.26:976][279]LogShaderCompilers: Display: ================================================
+[2023.10.05-07.33.27:936][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.10.05-07.33.27:938][338]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-07.33.28:006][338]LogSavePackage: Moving output files for package: /Game/Characters/Des/Actions/BPC_Dive
+[2023.10.05-07.33.28:007][338]LogSavePackage: Moving '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Saved/BPC_DiveFF51426A2AEC4FACB5227D1B42E6E785.tmp' to '../../../../../Creative Projects/Game Projects/DesAdventure/DesAdventureSrc/Content/Characters/Des/Actions/BPC_Dive.uasset'
+[2023.10.05-07.33.28:044][338]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 4.22 sec)
+[2023.10.05-07.33.28:050][338]AssetCheck: New page: Asset Save: BPC_Dive
+[2023.10.05-07.33.28:050][338]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Des/Actions/BPC_Dive.BPC_Dive
